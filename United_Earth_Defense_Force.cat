@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="1" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.14b" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="2" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.14b" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f861a5bf-a518-aa05-2a36-5a39ac594842" name="Area Denial Destroid Squadron" points="60.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -5156,12 +5156,15 @@
       <modifiers/>
     </rule>
     <rule id="59934e13-f344-7f8c-dc00-07851675d533" name="Afterburner" hidden="false" book="CRB" page="24">
+      <description>Aircraft with the Afterburner ability MUST make a secondary movement during the Resolution step of its Activation. It may make a single turn of up to 90 degrees then move a distance equal to its FULL SPD attribute in a straight line. If SPD was boosted during the movement step, then it must use the full modified SPD.</description>
       <modifiers/>
     </rule>
     <rule id="54f9c8aa-2617-b542-b094-6742109195b8" name="Aircraft" hidden="false" book="CRB" page="24">
+      <description>Aircraft, when moving, may make a single turn of up to 90 degrees before beginning its movement. Then it must proceed in a straight line a distance up to its SPD, and at least half its SPD in inches. (e.g. If it has SPD 12, it must move 6-12 inches.) Aircraft cannot be engaged in Hand-to-Hand combat. All Aircraft have the Flight rule, but not all Flight mecha are Aircraft.</description>
       <modifiers/>
     </rule>
     <rule id="68c780c2-174c-6976-64ac-59df7c8575f3" name="Ammo" hidden="false" book="CRB" page="27">
+      <description>May only be used a number of times indicated by a number after this rule. (e.g. &quot;Ammo 3&quot;)</description>
       <modifiers/>
     </rule>
     <rule id="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" name="Anti-Missile" hidden="false" book="CRB" page="27">
@@ -5169,55 +5172,71 @@
       <modifiers/>
     </rule>
     <rule id="91974e25-99bf-3b4e-2326-978f01009577" name="Battloid Restriction" hidden="false" book="CRB" page="24">
+      <description>When in Battloid mode, Wing-mounted weapons cannot be fired.</description>
       <modifiers/>
     </rule>
     <rule id="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" name="Blast" hidden="false" book="CRB" page="27">
+      <description>If the roll to Strike is successful, place the Blast template centered over the target mecha. Any mecha under the template takes the full MD damage of the weapon. Each mecha under the Blast template may attempt to dodge separately to avoid damage. If the roll to Strike fails, place the template with the &quot;1&quot; pointed directly away from the firing unit and roll 1D6 for direction and 2D6 for distance and resolve as above. Both friendly and enemy mecha can be hit. If the attack is also a Volley and hits, then all mecha are hit with the full strength of the attack. If it misses, then use the weapons base damage only, after scattering.</description>
       <modifiers/>
     </rule>
     <rule id="ee8043d4-f67a-2489-34a9-d41b3b91baf1" name="Cumbersome" hidden="false" book="CRB" page="24">
+      <description>For purposes of Movement only, this mecha treats Rough Terrain as Deadly Terrain.</description>
       <modifiers/>
     </rule>
     <rule id="a6241522-08db-f26e-b51f-b2329a0cfebb" name="Fast Mover" hidden="false" book="CRB" page="24">
+      <description>Due to the speed, the pilot of this mecha can only fire a single weapon system each turn and cannot spend Command Points to fire additional weapon systems. This applies, also, to the Valkyrie Fighter&apos;s GU-11 gun pod.</description>
       <modifiers/>
     </rule>
     <rule id="28ae3cbd-0e9f-9f2b-0a04-b14b243fd10f" name="Flight" hidden="false" book="CRB" page="24">
+      <description>This mecha ignores any movement restrictions or penalties from terrain and may move freely over other mecha, scenery, buildings, and structures. It isn&apos;t actually touching the terrain so treats all terrain as Open Terrain and ignores elevation when moving.</description>
       <modifiers/>
     </rule>
     <rule id="3778a131-d7b3-7d4d-404e-a7e5fa5dc988" name="Fly Over" hidden="false" book="CRB" page="28">
+      <description>During the movement step, place the Blast template over a mecha that you have just moved over. If the attacker cannot clear the blast template, then the attack cannot be made. Resolve the attack as a norm Blast attack, with scatter, even if the attack scatters back onto the attacking mecha.</description>
       <modifiers/>
     </rule>
     <rule id="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" name="Focus Fire" hidden="false" book="CRB" page="25">
+      <description>If this mecha did not move during the Movement Phase, it may fire one additional weapon system for free without spending Command Points.</description>
       <modifiers/>
     </rule>
     <rule id="32a66c0f-e87a-4332-eb53-3ae6d79e6a81" name="GU-11" hidden="false">
-      <description>While in Battloid mode, can be used to Rapid Fire an additional time each turn.</description>
+      <description>While in Battloid mode, the GU-11 Gun Pod can be used to Rapid Fire an additional time each turn.</description>
       <modifiers/>
     </rule>
     <rule id="158134e5-09b8-33a6-302c-a5ef4069173a" name="Hands" hidden="false" book="CRB" page="25">
+      <description>This mecha can Grab and use hand weapons during combat. The mecha may Climb up or down a single vertical surface higher than the height of the mecha for one Command Point without movement penalties. This may be done multiple times per turn.</description>
       <modifiers/>
     </rule>
     <rule id="154e6db6-9f05-a58b-a403-65395281729a" name="Hover" hidden="false" book="CRB" page="25">
+      <description>When being attacked by a ranged weapon, attackers get a -1 penalty to strike. Treats all terrain as Open Terrain, but cannot ignore terrain features taller than the mecha unless it has some other ability. (like Flight or Hands)</description>
       <modifiers/>
     </rule>
     <rule id="e9b00cb3-06e5-5dee-8d13-567d435d53bb" name="Indirect Fire" hidden="false" book="CRB" page="28">
+      <description>May fire over intervening terrain and attack targets without Line of Sight, as long as another friendly mecha does have Line of Sight to the target. Cover penalties do not apply.</description>
       <modifiers/>
     </rule>
     <rule id="6c056b6c-58fe-b012-0d8e-1e003121287e" name="Inescapable" hidden="false" book="CRB" page="28">
+      <description>Cannot be Dodged. Missiles may still be shot down.</description>
       <modifiers/>
     </rule>
     <rule id="a3759fc4-e4d5-4495-dd85-21ae37a67c15" name="Jettison" hidden="false" book="CRB" page="25">
+      <description>Mecha with Modular upgrades (like special armor), during the Activation step, may Jettison and abandon the special armor to revert to the base profile mecha. MD in excess of the armor&apos;s bonus are transferred to the base mecha. e.g. Armored VF with 22 MDC has 12 damage. After Jettisoning the armor, 8 MD goes with the armor and the remaining 4 are applied to the VF.</description>
       <modifiers/>
     </rule>
     <rule id="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" name="Leadership" hidden="false" book="CRB" page="25">
+      <description>Mecha with Leadership add X points to the Command Pool where X is the number after &quot;Leadership&quot;.</description>
       <modifiers/>
     </rule>
     <rule id="3468997a-e1e8-b887-5079-77aa649535d0" name="Leap" hidden="false" book="CRB" page="25">
+      <description>Once per turn, during movement, this mecha may make a single Leap. Move the mecha a single distance, in a straight line up to the NORMAL SPD, ignoring intervening terrain, mechas, and elevation. Continue with the remainder of the mecha&apos;s normal movement. The distance leaped cannot be boosted with Command Points.</description>
       <modifiers/>
     </rule>
     <rule id="f79aef9d-df4b-953b-e741-c6a3984cc61b" name="Life is Cheap" hidden="false" book="CRB" page="25">
+      <description>Mecha with this ability do not generate Command Points. They also do not count for Victory Points if they had started with a Glaug in their Squadron. When engaged in Hand-to-Hand combat, they do not prevent friendly mecha from firing on their opponent. If an engaged model takes damage, divide the damage equally among the target and all mecha with Life is Cheap engaged with it. Attacks made in this manner are Inescapable but players can still spend points to Roll with Impact. Addidionally, friendly mecha with Life is Cheap can be targeted to clear the LOS for additional attacks.</description>
       <modifiers/>
     </rule>
     <rule id="17972fe3-dc25-db39-5a72-544d15c41ce4" name="Missile" hidden="false" book="CRB" page="28">
+      <description>When hit by a Missile weapon, it may attempt to Shoot Down incoming missiles instead of Dodging them. Pay 1 Command Point and roll 1D6. On a 6, all incoming missiles targeting the defending mecha were shot down. Shooting Down missiles consumes Ammo and depends on the defender&apos;s Firing Arc, if applicable.</description>
       <modifiers/>
     </rule>
     <rule id="37d46206-e97c-92d1-b651-13d685119f96" name="Nose Laser" hidden="false">
@@ -5225,12 +5244,15 @@
       <modifiers/>
     </rule>
     <rule id="b09f7a92-6089-2f95-8b8e-1e60c5f5387b" name="Overwhelming" hidden="false" book="CRB" page="29">
+      <description>Target cannot perform a Roll with Impact.</description>
       <modifiers/>
     </rule>
     <rule id="4838b47d-5aed-5708-82ec-6bfdb1322fff" name="Rapid Fire" hidden="false" book="CRB" page="29">
+      <description>May be fired one additional time per turn, paying a Command Point just like firing an additional weapon system.</description>
       <modifiers/>
     </rule>
     <rule id="ca89f303-50eb-435e-45f3-5198d93b58cf" name="Rear Fire" hidden="false" book="CRB" page="29">
+      <description>May be used versus targets in both the forward and rear arc.</description>
       <modifiers/>
     </rule>
     <rule id="e2f15c64-8ee6-b545-d889-b2ff0dd99df1" name="Shock Baton" hidden="false">
@@ -5238,15 +5260,19 @@
       <modifiers/>
     </rule>
     <rule id="98fad1a3-8528-36d0-1804-1732785288d1" name="Split Fire" hidden="false" book="CRB" page="29">
+      <description>As a single attack, the MD of the weapon may be split equally (rounded up) to hit 2 targets simultaneously. Roll separately to Strike for each target.</description>
       <modifiers/>
     </rule>
     <rule id="4d7ede81-13c3-7acb-d995-5a781f20cb3a" name="Variable Modes" hidden="false" book="CRB" page="26">
+      <description>Any or All mecha in a squadron may switch modes during the Activation Step before movement. All mecha in a squadron must start the game in the same mode, but may change freely each turn.</description>
       <modifiers/>
     </rule>
     <rule id="24270075-6546-50e8-5b87-a139d55c81dc" name="Volley" hidden="false" book="CRB" page="29">
+      <description>When fired, the number after &quot;Volley&quot; is the number of missiles in the attack. Regardless of volley size, consumes only a single Ammo (if appropriate). &quot;Volley X&quot; will use an Ammo for each missile the controlling player wishes to consume. Attacker can designate some missiles to hit as many secondary targets as the controlling player wishes at a -3 Strike penalty versus each secondary target. Roll to Strike each target individually. Dodging or Rolling must be done versus the highest roll to Strike, provided the defending mecha was hit. If a mecha was hit by 4 or more missiles, the attack becomes Inescapable. A single successful Dodge will dodge all missiles targeting that mecha.</description>
       <modifiers/>
     </rule>
     <rule id="5dd27fb0-df9f-656c-7bfe-ee46516a4a47" name="Zentraedi Infantry" hidden="false" book="CRB" page="26">
+      <description>These giant warriors have PH instead of PIL attributes and cannot spend Command Points to boost their SPD. They behave as Mecha in all other ways, but use PH instead of PIL when necessary.</description>
       <modifiers/>
     </rule>
   </sharedRules>
