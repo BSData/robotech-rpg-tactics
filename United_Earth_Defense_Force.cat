@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="2" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.14b" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="2" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f861a5bf-a518-aa05-2a36-5a39ac594842" name="Area Denial Destroid Squadron" points="60.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -664,21 +664,27 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="cccb50b5-d29c-0e65-0bdd-3981008baba0" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f061ae7b-f737-6a3f-53d8-fa214ab4b6fd" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9ab42924-7f75-d908-d650-fc87be4b02bb" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="58724bb2-9101-740c-72fd-197905fe41ec" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="d0a47e14-f524-f00b-b7ef-1cc43c5e1815" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="300974d8-1e44-8dcf-ad2a-35d887d37f25" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="fa64efe9-ad10-230f-ee3f-10468ee9d3c6" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="aa74e5c8-5ae5-a095-d133-5a47919b4532" name="Armored Destroid Squadron" points="80.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -1150,21 +1156,27 @@
           </modifiers>
           <links/>
         </entryGroup>
+        <entryGroup id="ba3d6f0a-df37-43ec-45a6-832a0d2901d6" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="af0b1570-34a6-2890-13ba-55d49c49f198" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5b8303ff-6501-ea43-3d0d-454aded18be1" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8272ec3b-52f2-f609-ecc7-26d80f758451" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="93970331-8078-95e2-511c-250146a5b211" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="07610000-3732-4ac5-d17d-19158178d684" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d8356732-dfbf-ab40-df85-7399c6c3b9b4" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="a367a955-6e7f-f165-2cbf-d4fa09e3ff37" name="Artillery Destroid Squadron" points="80.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -1407,21 +1419,27 @@
           </modifiers>
           <links/>
         </entryGroup>
+        <entryGroup id="bc9788cf-60f0-fb88-3a44-8810e3ff0f0d" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="3491fec0-19a8-6068-451e-6ebff6c70d27" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2ae0a56f-ce7e-3048-2e12-3c5727ffc663" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b503c5fd-6259-07e3-9813-d013c269dc3b" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="3cd9a8e4-145b-a851-fada-cbb1a499ae65" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c63ad4f2-4906-84eb-f8f6-cba21f877aa1" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="97ddce07-7200-dae7-7e7a-b42d5518b24a" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="0d9a0d01-22f0-3e03-11f7-0ec0dc251611" name="Brawler Destroid Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2154,21 +2172,27 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="1d2f91ac-c79e-9b09-05ca-6058539a5203" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7583d27f-7c5a-3261-f72c-acaccb7a94d4" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="112eb87f-0b1d-2c59-57d4-b79296cf5619" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d191d31f-20e6-a900-bf8a-c9364b17de16" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="e7960fad-38e1-39ca-9e0a-2de126755ef2" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="92587820-4140-3496-1b15-117fd0b5330b" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4e915d72-14b5-dd91-b6b9-6e2079e942f7" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="479ac3a2-2690-d489-b77c-0c15583b7984" name="Close Quarters Destroid Squadron" points="60.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -2447,21 +2471,27 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="904f1d74-cb4f-3a72-61de-958142ebd3ac" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="51c0c857-2279-07cd-cba7-fe04d7662396" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e446258a-afe6-1244-bc47-e10b60206193" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f2f95f26-e325-b07c-b5fb-085a5a99e943" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="aec2e5f5-0183-c64d-59c2-9a93417e39d7" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7b5cdf54-85e5-5d3c-5228-7e47af75cbde" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b6d606dc-3152-b394-89a0-1ee690528d30" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="e91ec441-8fdf-e323-540e-d8d89fa80e06" name="Fire Support Destroid Squadron" points="60.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2886,21 +2916,27 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="5cbdef60-9198-a7bf-c785-3e02eb74e2ef" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c0a6efae-8dd3-b5e6-0a6c-a14ac1a4c45a" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ec572748-bf4a-deff-a9fe-c2642732eaac" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ff10bce9-2736-ab21-a92f-26f4298dcd0a" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="c3a99f2f-0425-858a-d903-c0db0401f870" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="dad56379-d9bf-7dbf-92b3-ce8a76e0d9d5" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5f39aecd-2960-96ca-5d18-6dc359424e15" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="f6684a64-3a69-912b-85e6-9709c0b8fa3e" name="Valkyrie Squadron" points="80.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -3482,18 +3518,24 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="6878381b-3325-d286-d2a0-25717eaaa23a" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9ded1a32-8530-fac4-bd01-010f831d111f" targetId="63f4e68d-b3eb-c1e8-a40f-b897b6350a11" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f75370d9-ca08-9ef8-6663-edf553aef1a3" targetId="e947760c-2170-a09b-567b-139c6b37cad7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="21058d3e-0fc7-4112-4d98-38f9a9763e46" targetId="e947760c-2170-a09b-567b-139c6b37cad7" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c0ddaf6b-acc8-a5d8-86f4-b2f406051b6e" targetId="63f4e68d-b3eb-c1e8-a40f-b897b6350a11" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
   </entries>
   <rules/>
@@ -4606,7 +4648,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="e947760c-2170-a09b-567b-139c6b37cad7" name="VF-1S" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e947760c-2170-a09b-567b-139c6b37cad7" name="VF-1S Support Card" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="b85debc2-c552-6875-329f-dc206db85944" name="GU-11 Gun Pod" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
