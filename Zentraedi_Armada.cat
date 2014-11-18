@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="1" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.14b" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="b51eb055-0d59-226c-5c18-29421328def7" name="Regult Attrition Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="6650dab1-8efd-efbe-36a8-afca840a8316" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="12" maxSelections="12" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="8fc90138-d833-e8f1-9ae7-418ade1fe006" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="f1ca48a5-73ad-ba4c-4b99-ffb487dba734" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="cbc05c71-9d29-cbb3-5676-3280495d6fdc" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules>
+            <rule id="a86edded-41fd-b9af-417f-ad2a9d6b2f77" name="Hand-To-Hand (Regult)" hidden="false">
+              <description>Body Block, Kick, Jump Kick, Stomp</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="bf852f00-e1c9-dfd7-23d9-5f17c3933bb7" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
+                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
+                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="true" numRepeats="1" incrementParentId="b51eb055-0d59-226c-5c18-29421328def7" incrementChildId="9752d74c-c2a4-549f-3565-80f03e544d74" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="1" repeat="true" numRepeats="1" incrementParentId="b51eb055-0d59-226c-5c18-29421328def7" incrementChildId="9752d74c-c2a4-549f-3565-80f03e544d74" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1b025ff9-7997-b7ee-67e1-6eb551a7b9b1" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="919aae97-8ba5-30c1-f261-a7126e12b1c3" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a0e29525-0811-1fac-2470-fb5f7ebd1620" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="88933fda-872d-d713-7adc-3389e9764739" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="619b63f1-8725-151e-bc6d-cc8d9cdc5fb9" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8221abc5-c6b1-d76e-1533-0dd85646057d" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="256843be-775b-aeea-ffd2-282bfb120062" targetId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9752d74c-c2a4-549f-3565-80f03e544d74" targetId="fd4e237c-ad98-53b3-8d54-58c8c8da7c24" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="c14ffe52-616e-9a35-07a6-83d17072b41e" name="Regult Artillery Squadron" points="90.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="16c5ddc1-b5b1-8a2a-722c-8e8e07bdf3b1" targetId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7b84bcbe-5f7a-e3e2-8ad2-9fc6655628f0" targetId="f4c103ed-18f1-8986-d75e-c6f77c4c5c45" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="minSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="40233bf6-9e8e-5649-af77-8d7da32afbf4" targetId="07434e57-1f8d-e568-4fb9-a9b44685508f" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="b7b5446f-1fec-fd25-400c-98ba710b942d" name="Regult Recon Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a01e116e-7c7d-48dd-3131-86022d3d2b81" targetId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a5f73460-67a4-f7b8-58a5-3ba508552dd9" name="Regult Attack Squadron" points="80.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9d4f413e-3272-33fa-1930-336349667904" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="caaa8588-9914-e3e9-38d1-4ca37d389edf" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="d84187e7-8992-fe2a-13dc-adb429584732" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a1d14aac-3ea3-485f-9c2f-89f609aff04a" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules>
+            <rule id="69b0733f-33d9-fe0e-7f2b-b50ac4109feb" name="Hand-To-Hand (Regult)" hidden="false">
+              <description>Body Block, Kick, Jump Kick, Stomp</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="78e919ee-b6a0-df8e-1980-fe18501f2ec7" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
+                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
+                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="true" numRepeats="1" incrementParentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" incrementChildId="d01817a0-0fea-ee8f-6085-92d5623e8cc3" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="1" repeat="true" numRepeats="1" incrementParentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" incrementChildId="d01817a0-0fea-ee8f-6085-92d5623e8cc3" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0a886c8e-63cb-6e4b-9fec-038abb11f4ba" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2f003f20-c04b-219e-e9fc-20a9d328cb9a" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="26d77a67-abdb-1e43-978a-9f6c56b91247" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="dffab64e-0da5-973c-7766-03c40b3b0f21" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="acc8b108-b1f2-5c8d-559a-8bf7e638dc02" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="481c5b26-44d3-4ef9-b6b9-e5f8f332d735" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d01817a0-0fea-ee8f-6085-92d5623e8cc3" name="Veteran Warriors" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="35fa1749-23ba-cd04-52af-1559bad2c998" name="Leader" defaultEntryId="3ec439d7-c580-6ce5-1f94-96f56dd31651" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3ec439d7-c580-6ce5-1f94-96f56dd31651" name="Glaug" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="29f4b188-0ad0-c8af-9363-401a39cf33bd" targetId="007240c9-51f7-38e1-1276-8bcab7142589" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="0a7af1db-1f6c-48a3-202e-3e3b623d8c01" name="Glaug-Eldare" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="dd52fea2-5fa1-2c4b-4397-106ad67cef41" targetId="e36be546-c696-9e91-fe1e-394b06797619" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4a6e12a7-e23c-2e36-f0f2-12f97383e94d" targetId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="4e0be654-7945-d76e-44d4-d8efef929088" name="128mm Charged Particle Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b50770cb-5b79-177a-a720-ade6c92f1924" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="128mm Charged Particle Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="24"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="6"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Accurate, Inescapable, Overwhelming"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dd051b77-cc31-28c0-764e-448a780c2a15" targetId="e0008460-131d-cd46-9ead-390b4fbe0dd6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ba63a956-2047-3d4c-483c-cf1c601c50d1" targetId="6c056b6c-58fe-b012-0d8e-1e003121287e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a37b0535-289c-2d61-85be-0126aacd8113" targetId="b09f7a92-6089-2f95-8b8e-1e60c5f5387b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="39df6873-42ae-cb99-222d-e69b31ffcdc4" name="150mm Short Range Missile Tubes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="dfa854d6-92ef-95e5-90bb-1e6ac898d53b" name="Azonia" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6fec0178-d817-8eea-6225-37b757f0cefc" name="Breetai" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6d399c87-d8e5-2ca4-c550-87ea4819bb1e" name="High Lord" hidden="false">
+          <description>Whenever Breetai is taking damage, any amount of it may be redirected to friendly mecha within 4 inches of him in any combination his player chooses. Hand-to-Hand attacks made by Breetai do double their normal damage, and Breetai can make 2 additional Hand-to-Hand attacks per turn for free.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="5d6db54b-4eb5-5aeb-8b3e-db2d70ac82cf" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" name="Dual 22.3mm Auto-Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="44f5d32a-abb7-2bc2-a5de-dc0fcde4e0f8" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual 22.3mm Auto-Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="12"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="2"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d2e8800e-a3a5-eaf8-a38a-5fa7e3c62ffc" name="Dual 313mm Medium-Range Missile Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="1794a324-0fe1-4dc6-4da1-9026b7e538bf" name="Dual 791mm Tactical Ballistic Missile Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5c9a22a7-c58e-0090-e91e-9dd9d3d6cdb3" name="Dual Charged Particle Cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="34464812-1bd2-2501-364e-c9db9c6ae7ae" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual Charged Particle Cannons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="18"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="8"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6beee25d-0ba7-6a70-3f21-a65bad591420" name="Dual Forearm 44mm Electromagnetic Rail Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="efaafde9-f744-a1b3-0598-083548625b2c" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual Forearm 44mm Electromagnetic Rail Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="18"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="8"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Anti-Missile, Split Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="94f083a8-d116-f83e-0a49-1a50c81c59a7" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="403f6383-a1ff-42a0-3449-2c39ccb018ea" targetId="98fad1a3-8528-36d0-1804-1732785288d1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ac2b4ac7-321b-caae-8c59-c92a68e4166c" name="Dual Forearm Heavy Particle Cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="106a60bb-402b-c821-bcac-256e6e3667ce" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual Forearm Heavy Particle Cannons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="18"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="4"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Split Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ecb1200e-072d-7344-c0cd-8312b880bf48" targetId="98fad1a3-8528-36d0-1804-1732785288d1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" name="Dual Heavy Particle Cannons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6e71dff3-f710-632a-a4a7-f2ede2457c24" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual Heavy Particle Cannons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="18"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="4"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Accurate"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="34280601-aa0b-8a25-c4c6-cf4871de631f" targetId="e0008460-131d-cd46-9ead-390b4fbe0dd6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="33261c5c-8ea6-9162-9722-5d29d5ef3135" name="Dual Light Air Defense Lasers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f40f0564-a8ae-cfd5-8e15-f9e454566ff8" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual Light Air Defense Lasers" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="9"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="2"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Anti-Missile, Rear Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="815ed216-bc7b-6807-c482-4526bc6bfd3a" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c31c338-7a3e-54b5-5958-d1ec4c746859" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="007240c9-51f7-38e1-1276-8bcab7142589" name="Glaug" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e53718d6-f8e5-be4a-945b-326ecb76e239" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="235a7571-f26a-c4ec-7fe9-5c8f1823b8a2" targetId="dfa854d6-92ef-95e5-90bb-1e6ac898d53b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="96ee10a9-5ad4-f9eb-5e7b-3006fa6b1b5c" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="01e2db42-4617-2275-75bc-d0b6f42a1dc8" targetId="e1536d5f-de86-cc06-339f-883ed57618d6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="c842cf45-09b5-14f7-bfac-36151d0e7d6e" name="Hand-to-Hand (Glaug)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Punch, Power Punch, Stomp</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="704248e2-13a2-feca-c6b6-0b8c46c20cc5" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Glaug" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="7"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leadership 4, Leap"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="true" numRepeats="1" incrementParentId="007240c9-51f7-38e1-1276-8bcab7142589" incrementChildId="01e2db42-4617-2275-75bc-d0b6f42a1dc8" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1d6e85d8-6021-c696-8bd3-ad2e247abef0" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="354499a0-f861-2f10-5416-c3aa8d582482" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="007240c9-51f7-38e1-1276-8bcab7142589" childId="e53718d6-f8e5-be4a-945b-326ecb76e239" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="name" value="5" repeat="true" numRepeats="1" incrementParentId="007240c9-51f7-38e1-1276-8bcab7142589" incrementChildId="235a7571-f26a-c4ec-7fe9-5c8f1823b8a2" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="941a8eeb-177e-911b-120f-7a67c05d8847" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1ccc9950-deab-47c1-e8d4-ea8f2f5763aa" targetId="4e0be654-7945-d76e-44d4-d8efef929088" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6ba79e3a-72d3-00b7-3f65-66a06bcfce2e" targetId="ac2b4ac7-321b-caae-8c59-c92a68e4166c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5e03b61b-fed2-74d3-e034-3bbeacb36e47" targetId="6beee25d-0ba7-6a70-3f21-a65bad591420" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d48d6a46-9827-717b-16b0-6987beb91b6c" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7b198dfc-8f11-916d-4394-5254cc094da5" targetId="39df6873-42ae-cb99-222d-e69b31ffcdc4" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e36be546-c696-9e91-fe1e-394b06797619" name="Glaug-Eldare" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f4c103ed-18f1-8986-d75e-c6f77c4c5c45" name="Gluuhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="08b15f1e-4a8d-784b-8d9f-6f742d79cfb0" name="Hand-to-Hand (Gluuhaug-Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7083e2ea-e734-a306-7068-648d3a5fb39e" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Gluuhaug-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="28e75c59-ec81-70cd-88ae-c5f617939090" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f4cc9025-8a3d-f196-04e5-9dc4dcc5b6e4" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fc39dad2-a213-75ed-49dc-cdf55fc65413" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e308c5a3-23ba-e67a-4729-0051c89a6955" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cd1081f3-7368-7c11-7cdb-eaea320b413d" targetId="d2e8800e-a3a5-eaf8-a38a-5fa7e3c62ffc" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9bee408c-2f03-d574-66ce-a3dcc875afb8" name="Grell" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c38f4b2f-17b3-d5dd-e937-8bfec9a32e84" name="Calling for Reinforcements" hidden="false">
+          <description>Regults destroyed within 8 inches of Grell may be put aside to return as Reinforcements even if he doesn&apos;t have line of sight to them. Grell may set aside Regults from his squadron as Reinforcements no matter what mecha he is piloting.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e1536d5f-de86-cc06-339f-883ed57618d6" name="Khyron" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a5ff0b16-6e94-53c1-7fa7-42f4d7af47ba" name="The Backstabber" hidden="false">
+          <description>Whe Khyron&apos;s squadron activates, his player may destroy a Mecha from his squadron, within 8 inches of Khyron, to gain 3 Command Points. Regults destroyed in this way cannot be set aside to possibly return as Reinforcements.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="fbc56f9a-2ab5-dc08-1d3d-883c57ffb56d" name="Maloquinn" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="59bbb8cf-e33e-d8c3-95d9-6f190a64a858" name="Watch the Skies" hidden="false">
+          <description>Maloquinn&apos;s 32mm Plasma Machine Pistols get the Anti-Missile ability.</description>
+          <modifiers/>
+        </rule>
+        <rule id="9aa48596-c636-e0db-b9a6-55c84291d2eb" name="Maloquinn&apos;s Pistols" hidden="false">
+          <description>Maloquinn&apos;s Nousjadeul-Ger has a second copy of the 32mm Plasma Machine Pistol weapon system.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" name="Miriya-Parina" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="247f705b-a765-eb11-876c-efdb814fc1dc" name="Aggressive" hidden="false">
+          <description>Miriya can re-roll all of her Strike rolls. Remember, no single roll can be re-rolled more than once.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="26dae009-989b-82be-b7cc-8d9cc79737ef" name="Pirion-Galarr" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a92d3e9d-026e-f306-6b10-8eb07146ba2f" name="Swarm" hidden="false">
+          <description>Once per game, when Pirion-Galarr&apos;s squadron is activated, all of the mecha in the squadron can automatically boost their SPD once that turn without paying any Command Points or making Piloting rolls.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" name="Polus-Mjor" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2746af0f-fc1d-6952-d6c5-16f9af59b135" name="UEDF Spartan Shock Batons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="e2f15c64-8ee6-b545-d889-b2ff0dd99df1" name="Shock Baton" hidden="false">
+              <description>Can be used to make Clubbing hand-to-hand attacks. In addition to the normal MD for the Club attack, the Shock Baton reduces the enemy mecha&apos;s SPD to zero (0) and prevents it from spending any Command Points to leave hand-to-hand combat. These penalties last until the enemy mecha&apos;s next activation of the subsequent turn.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6964b339-2585-d657-02be-d91ef6d8c25d" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Shock Baton" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="Melee"/>
+                <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="*"/>
+                <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Shock Baton"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ee5de0a5-6c1d-4299-5051-2dc9a7bbb4f3" name="Up Close and Personal" hidden="false">
+          <description>Polus-Mjor may make an additional hand-to-hand attack each turn for free.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="43736536-634e-9fe3-a61c-ce870796920f" name="Quel-Gulnau" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ec1e0661-c6bb-9cc5-efc2-4c81ae050ba6" name="Hand-to-Hand (Quel-Gulnau)" hidden="false">
+          <description>Body Block, Grab, Punch, Power Punch</description>
+          <modifiers/>
+        </rule>
+        <rule id="d8ae5bd8-de9e-c60e-f6ae-bb7cc4ee48df" name="Recovery and Salvage" hidden="false">
+          <description>While a Quel-Gulnau is within 2 inches of a Glaug (or Glaug-Eldare), it extends the Glaug&apos;s normal 8-inch range for setting aside destroyed Regults to 12 inches, but the Glaug (or Glaug-Eldare) must still have line of sight to the Regults destroyed in its squadron in order to set them aside for later use as possible reinforcements. This ability is not cumulative with additional Quel-Gulnau or Glaug.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4accfd9e-7b47-dade-fd76-492dc8a08bdf" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Gulnau" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="9"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Flight, Hands, Hover"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d8329e3e-08f9-fc68-e752-a31609abc472" name="Quel-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9cd64d0e-f010-5a7c-2439-26e3ab713a4a" name="Hand-to-Hand (Quel-Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+        <rule id="a97d7c84-63e6-5453-12d6-dec48fac812d" name="Advanced Reconnaissance Suite" hidden="false">
+          <description>When the Quel-Regult activates, you may spend 2 Command Points to make it so that friendly mecha within 12 inches of the Quel-Regult, when they make a ranged attack, get a +1 bonus to Strike. This effect lasts until the next time the Quel-Regult is activated.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7b290414-5eea-934a-672c-78c38b4e25fb" name="Electronic Attack Suite" hidden="false">
+          <description>When the Quel-Regult is activated, you may spend 1 Command Point to inflict a -1 penalty to Strike in ranged combat on a single enemy mecha within a 24-inch range of the Quel-Regult until the end of the turn. Multiple mecha can be affected at the cost of one Command Point per additional mecha.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="aa1cdd31-09c7-bb45-258e-bd6d55aa68a3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Leadership 2, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="88c6e297-9af2-b6ff-0fd4-cd619e96e336" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="266acf41-71f1-8ea1-6499-6f4e80e2a95e" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="07434e57-1f8d-e568-4fb9-a9b44685508f" name="Serauhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="09424022-8ba6-aeee-1889-b3276ceb7247" name="Hand-to-Hand (Serauhaug-Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="aeb55b32-0a36-5162-7221-253f8a29dbec" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Serauhaug-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b7fbf78c-25b5-5ee7-7b52-8341bfc3188f" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e0e52a04-d927-2ad3-8f28-ce06162fd34e" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6b72e0a3-5b34-280d-a29d-e327b4449c6d" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8d3cb337-531c-b850-6d07-0e03abd97444" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2c8542e0-e73c-a1b5-6721-0916ba24f23f" targetId="1794a324-0fe1-4dc6-4da1-9026b7e538bf" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bffb91e6-aec8-b02b-8bc8-541eecfd5d0b" name="Telnesta-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="fc5c90a1-0f58-a176-8660-ec89359bb7ea" name="Hand-to-Hand (Telnesta-Regult)" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2d8c5512-2992-2a10-4dba-1178ba9be861" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Telnesta-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d77fe6dc-f265-0758-f4f8-c552393d8c36" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cdb2ad74-8ec2-2d4d-bc19-a64b76d59487" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="26ae1c40-9896-ac0b-e5f6-e6a513a6cb7c" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2fc2fc18-49d2-c5bd-dd16-a6a769a86bc4" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4e66eaab-f78d-b268-87fb-dd4d41d219f4" targetId="5c9a22a7-c58e-0090-e91e-9dd9d3d6cdb3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="05ac8852-9872-49e4-d929-465bcc711c59" name="Sulreen-Tehr" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="fdc4f29a-5311-bc48-98b6-56e5ca8c35d8" name="Experienced Pilot" hidden="false">
+          <description>When Sulreen-Tehr turns an Aircraft he is piloting, it can be turned to face any direction.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="28cea9ef-42ce-a95c-51d5-71676fce5a9d" name="Regult Squad" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="aebcc61c-9527-959a-53ed-d9edf49a0824" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="2ce83947-fef7-3802-ddcb-5e933d10616d" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="1336496e-decc-fc0e-da86-a6309d13dba9" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a59ba4af-9e20-1cab-fcb6-08acf3d508d0" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules>
+            <rule id="ce674c66-c216-3462-c95a-aa7f0e610a2d" name="Hand-To-Hand (Regult)" hidden="false">
+              <description>Body Block, Kick, Jump Kick, Stomp</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="93e85315-f1d2-52db-badd-42f22d871237" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
+                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
+                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="true" numRepeats="1" incrementParentId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" incrementChildId="55f09f04-f053-bdeb-052d-d50cf712359d" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="1" repeat="true" numRepeats="1" incrementParentId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" incrementChildId="55f09f04-f053-bdeb-052d-d50cf712359d" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links>
+            <link id="787268c5-40b5-da55-abc8-86df56758769" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2cd03af1-3b34-37df-9249-0d12b5214d1e" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c21375cd-38e2-1f2d-3d5d-7846cb554525" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7ab5a324-bbda-5e37-4e14-d7b9362f6ae4" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="962309ef-2ae4-dc6d-2a5c-2005c391bfd2" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="a94762ee-e8a1-bef7-1cc9-18fa8484fcf3" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="55f09f04-f053-bdeb-052d-d50cf712359d" name="Veteran Warriors" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="fd4e237c-ad98-53b3-8d54-58c8c8da7c24" name="Veteran Warriors" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="e0008460-131d-cd46-9ead-390b4fbe0dd6" name="Accurate" hidden="false" book="CRB" page="27">
+      <description>+1 to Strike in ranged combat if the mecha didn&apos;t move this turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="59934e13-f344-7f8c-dc00-07851675d533" name="Afterburner" hidden="false" book="CRB" page="24">
+      <description>Aircraft with the Afterburner ability MUST make a secondary movement during the Resolution step of its Activation. It may make a single turn of up to 90 degrees then move a distance equal to its FULL SPD attribute in a straight line. If SPD was boosted during the movement step, then it must use the full modified SPD.</description>
+      <modifiers/>
+    </rule>
+    <rule id="54f9c8aa-2617-b542-b094-6742109195b8" name="Aircraft" hidden="false" book="CRB" page="24">
+      <description>Aircraft, when moving, may make a single turn of up to 90 degrees before beginning its movement. Then it must proceed in a straight line a distance up to its SPD, and at least half its SPD in inches. (e.g. If it has SPD 12, it must move 6-12 inches.) Aircraft cannot be engaged in Hand-to-Hand combat. All Aircraft have the Flight rule, but not all Flight mecha are Aircraft.</description>
+      <modifiers/>
+    </rule>
+    <rule id="68c780c2-174c-6976-64ac-59df7c8575f3" name="Ammo" hidden="false" book="CRB" page="27">
+      <description>May only be used a number of times indicated by a number after this rule. (e.g. &quot;Ammo 3&quot;)</description>
+      <modifiers/>
+    </rule>
+    <rule id="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" name="Anti-Missile" hidden="false" book="CRB" page="27">
+      <description>This weapon only needs a role of 5+ when shooting to shoot down incoming missiles, including missile volleys, and does so at NO cost in Command Points but does use a point of Ammo, if present.</description>
+      <modifiers/>
+    </rule>
+    <rule id="91974e25-99bf-3b4e-2326-978f01009577" name="Battloid Restriction" hidden="false" book="CRB" page="24">
+      <description>When in Battloid mode, Wing-mounted weapons cannot be fired.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" name="Blast" hidden="false" book="CRB" page="27">
+      <description>If the roll to Strike is successful, place the Blast template centered over the target mecha. Any mecha under the template takes the full MD damage of the weapon. Each mecha under the Blast template may attempt to dodge separately to avoid damage. If the roll to Strike fails, place the template with the &quot;1&quot; pointed directly away from the firing unit and roll 1D6 for direction and 2D6 for distance and resolve as above. Both friendly and enemy mecha can be hit. If the attack is also a Volley and hits, then all mecha are hit with the full strength of the attack. If it misses, then use the weapons base damage only, after scattering.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ee8043d4-f67a-2489-34a9-d41b3b91baf1" name="Cumbersome" hidden="false" book="CRB" page="24">
+      <description>For purposes of Movement only, this mecha treats Rough Terrain as Deadly Terrain.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a6241522-08db-f26e-b51f-b2329a0cfebb" name="Fast Mover" hidden="false" book="CRB" page="24">
+      <description>Due to the speed, the pilot of this mecha can only fire a single weapon system each turn and cannot spend Command Points to fire additional weapon systems. This applies, also, to the Valkyrie Fighter&apos;s GU-11 gun pod.</description>
+      <modifiers/>
+    </rule>
+    <rule id="28ae3cbd-0e9f-9f2b-0a04-b14b243fd10f" name="Flight" hidden="false" book="CRB" page="24">
+      <description>This mecha ignores any movement restrictions or penalties from terrain and may move freely over other mecha, scenery, buildings, and structures. It isn&apos;t actually touching the terrain so treats all terrain as Open Terrain and ignores elevation when moving.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3778a131-d7b3-7d4d-404e-a7e5fa5dc988" name="Fly Over" hidden="false" book="CRB" page="28">
+      <description>During the movement step, place the Blast template over a mecha that you have just moved over. If the attacker cannot clear the blast template, then the attack cannot be made. Resolve the attack as a norm Blast attack, with scatter, even if the attack scatters back onto the attacking mecha.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" name="Focus Fire" hidden="false" book="CRB" page="25">
+      <description>If this mecha did not move during the Movement Phase, it may fire one additional weapon system for free without spending Command Points.</description>
+      <modifiers/>
+    </rule>
+    <rule id="32a66c0f-e87a-4332-eb53-3ae6d79e6a81" name="GU-11" hidden="false">
+      <description>While in Battloid mode, the GU-11 Gun Pod can be used to Rapid Fire an additional time each turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="158134e5-09b8-33a6-302c-a5ef4069173a" name="Hands" hidden="false" book="CRB" page="25">
+      <description>This mecha can Grab and use hand weapons during combat. The mecha may Climb up or down a single vertical surface higher than the height of the mecha for one Command Point without movement penalties. This may be done multiple times per turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="154e6db6-9f05-a58b-a403-65395281729a" name="Hover" hidden="false" book="CRB" page="25">
+      <description>When being attacked by a ranged weapon, attackers get a -1 penalty to strike. Treats all terrain as Open Terrain, but cannot ignore terrain features taller than the mecha unless it has some other ability. (like Flight or Hands)</description>
+      <modifiers/>
+    </rule>
+    <rule id="e9b00cb3-06e5-5dee-8d13-567d435d53bb" name="Indirect Fire" hidden="false" book="CRB" page="28">
+      <description>May fire over intervening terrain and attack targets without Line of Sight, as long as another friendly mecha does have Line of Sight to the target. Cover penalties do not apply.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6c056b6c-58fe-b012-0d8e-1e003121287e" name="Inescapable" hidden="false" book="CRB" page="28">
+      <description>Cannot be Dodged. Missiles may still be shot down.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a3759fc4-e4d5-4495-dd85-21ae37a67c15" name="Jettison" hidden="false" book="CRB" page="25">
+      <description>Mecha with Modular upgrades (like special armor), during the Activation step, may Jettison and abandon the special armor to revert to the base profile mecha. MD in excess of the armor&apos;s bonus are transferred to the base mecha. e.g. Armored VF with 22 MDC has 12 damage. After Jettisoning the armor, 8 MD goes with the armor and the remaining 4 are applied to the VF.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" name="Leadership" hidden="false" book="CRB" page="25">
+      <description>Mecha with Leadership add X points to the Command Pool where X is the number after &quot;Leadership&quot;.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3468997a-e1e8-b887-5079-77aa649535d0" name="Leap" hidden="false" book="CRB" page="25">
+      <description>Once per turn, during movement, this mecha may make a single Leap. Move the mecha a single distance, in a straight line up to the NORMAL SPD, ignoring intervening terrain, mechas, and elevation. Continue with the remainder of the mecha&apos;s normal movement. The distance leaped cannot be boosted with Command Points.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f79aef9d-df4b-953b-e741-c6a3984cc61b" name="Life is Cheap" hidden="false" book="CRB" page="25">
+      <description>Mecha with this ability do not generate Command Points. They also do not count for Victory Points if they had started with a Glaug in their Squadron. When engaged in Hand-to-Hand combat, they do not prevent friendly mecha from firing on their opponent. If an engaged model takes damage, divide the damage equally among the target and all mecha with Life is Cheap engaged with it. Attacks made in this manner are Inescapable but players can still spend points to Roll with Impact. Addidionally, friendly mecha with Life is Cheap can be targeted to clear the LOS for additional attacks.</description>
+      <modifiers/>
+    </rule>
+    <rule id="17972fe3-dc25-db39-5a72-544d15c41ce4" name="Missile" hidden="false" book="CRB" page="28">
+      <description>When hit by a Missile weapon, it may attempt to Shoot Down incoming missiles instead of Dodging them. Pay 1 Command Point and roll 1D6. On a 6, all incoming missiles targeting the defending mecha were shot down. Shooting Down missiles consumes Ammo and depends on the defender&apos;s Firing Arc, if applicable.</description>
+      <modifiers/>
+    </rule>
+    <rule id="37d46206-e97c-92d1-b651-13d685119f96" name="Nose Laser" hidden="false">
+      <description>Can only be used in Guardian or Fighter mode, but may be used as an additional attack without an additional cost in Command Points. Further, the nose lasers do not count towards the Fast Mover restriction on attacking with more than one weapon per turn in Fighter mode.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b09f7a92-6089-2f95-8b8e-1e60c5f5387b" name="Overwhelming" hidden="false" book="CRB" page="29">
+      <description>Target cannot perform a Roll with Impact.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4838b47d-5aed-5708-82ec-6bfdb1322fff" name="Rapid Fire" hidden="false" book="CRB" page="29">
+      <description>May be fired one additional time per turn, paying a Command Point just like firing an additional weapon system.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ca89f303-50eb-435e-45f3-5198d93b58cf" name="Rear Fire" hidden="false" book="CRB" page="29">
+      <description>May be used versus targets in both the forward and rear arc.</description>
+      <modifiers/>
+    </rule>
+    <rule id="98fad1a3-8528-36d0-1804-1732785288d1" name="Split Fire" hidden="false" book="CRB" page="29">
+      <description>As a single attack, the MD of the weapon may be split equally (rounded up) to hit 2 targets simultaneously. Roll separately to Strike for each target.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4d7ede81-13c3-7acb-d995-5a781f20cb3a" name="Variable Modes" hidden="false" book="CRB" page="26">
+      <description>Any or All mecha in a squadron may switch modes during the Activation Step before movement. All mecha in a squadron must start the game in the same mode, but may change freely each turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="24270075-6546-50e8-5b87-a139d55c81dc" name="Volley" hidden="false" book="CRB" page="29">
+      <description>When fired, the number after &quot;Volley&quot; is the number of missiles in the attack. Regardless of volley size, consumes only a single Ammo (if appropriate). &quot;Volley X&quot; will use an Ammo for each missile the controlling player wishes to consume. Attacker can designate some missiles to hit as many secondary targets as the controlling player wishes at a -3 Strike penalty versus each secondary target. Roll to Strike each target individually. Dodging or Rolling must be done versus the highest roll to Strike, provided the defending mecha was hit. If a mecha was hit by 4 or more missiles, the attack becomes Inescapable. A single successful Dodge will dodge all missiles targeting that mecha.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5dd27fb0-df9f-656c-7bfe-ee46516a4a47" name="Zentraedi Infantry" hidden="false" book="CRB" page="26">
+      <description>These giant warriors have PH instead of PIL attributes and cannot spend Command Points to boost their SPD. They behave as Mecha in all other ways, but use PH instead of PIL when necessary.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
