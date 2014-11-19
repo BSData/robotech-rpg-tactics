@@ -323,7 +323,7 @@ These reinforcements move 2 inches onto the battlefield from any point along the
     <link id="7b512c4b-3b30-f9d9-682a-95544a7dab37" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
       <modifiers/>
     </link>
-    <link id="856ae77e-c03e-d4cd-0722-3bd7d0f65150" targetId="05ac8852-9872-49e4-d929-465bcc711c59" linkType="entry">
+    <link id="856ae77e-c03e-d4cd-0722-3bd7d0f65150" targetId="05ac8852-9872-49e4-d929-465bcc711c59" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
       <modifiers/>
     </link>
     <link id="57d27f4d-c7c4-1bf7-051a-2c8d3f918d80" targetId="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
