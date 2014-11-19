@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="3" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="4" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c14ffe52-616e-9a35-07a6-83d17072b41e" name="Regult Artillery Squadron" points="90.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -301,7 +301,35 @@ These reinforcements move 2 inches onto the battlefield from any point along the
       <modifiers/>
     </rule>
   </rules>
-  <links/>
+  <links>
+    <link id="b7c2f8ef-b829-a1ae-0159-b320f613b6d1" targetId="881bf33b-7207-b948-a2f4-c554c68c35df" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="eb3870dc-b9bc-9201-a340-6fbf763e42a4" targetId="6fec0178-d817-8eea-6225-37b757f0cefc" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="19efebac-c14f-3479-60cb-8e0b60b69e1d" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="38cd476d-cbfb-0c46-3899-affaedd242ac" targetId="e1536d5f-de86-cc06-339f-883ed57618d6" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="0ee5703b-6472-3549-2342-2adfeea3249e" targetId="fbc56f9a-2ab5-dc08-1d3d-883c57ffb56d" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="371c907f-f6bc-7eb6-645c-0b78c9704b57" targetId="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="7b512c4b-3b30-f9d9-682a-95544a7dab37" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="856ae77e-c03e-d4cd-0722-3bd7d0f65150" targetId="05ac8852-9872-49e4-d929-465bcc711c59" linkType="entry">
+      <modifiers/>
+    </link>
+    <link id="57d27f4d-c7c4-1bf7-051a-2c8d3f918d80" targetId="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+  </links>
   <sharedEntries>
     <entry id="4e0be654-7945-d76e-44d4-d8efef929088" name="128mm Charged Particle Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
       <entries/>
@@ -363,9 +391,39 @@ These reinforcements move 2 inches onto the battlefield from any point along the
     <entry id="881bf33b-7207-b948-a2f4-c554c68c35df" name="Azonia" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="3882f550-ec36-ee32-9ab8-c418ea08a739" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="928f7be7-6b6b-6d88-cdb8-7329388609ce" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="2b7c4ad4-ffce-5aed-eaf2-07a5afb16e95" name="Available Mecha (Azonia)" hidden="false">
+          <description>Glaug, Queadluun-Rau</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b23feb92-4d97-6e43-18ba-e659f045da58" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Azonia" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Leadership +1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="7bed524f-e593-4079-1196-be1323b5231b" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
           <modifiers>
@@ -380,14 +438,43 @@ These reinforcements move 2 inches onto the battlefield from any point along the
     <entry id="6fec0178-d817-8eea-6225-37b757f0cefc" name="Breetai" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="9692388c-d4e4-e044-8f09-7cb58ddb261b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="ba12f51e-dbe3-72c6-b9a4-8def4413430a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="6d399c87-d8e5-2ca4-c550-87ea4819bb1e" name="High Lord" hidden="false">
           <description>Whenever Breetai is taking damage, any amount of it may be redirected to friendly mecha within 4 inches of him in any combination his player chooses. Hand-to-Hand attacks made by Breetai do double their normal damage, and Breetai can make 2 additional Hand-to-Hand attacks per turn for free.</description>
           <modifiers/>
         </rule>
+        <rule id="0cb319ef-6839-4062-5767-5d248185e503" name="Available Mecha (Breetai)" hidden="false">
+          <description>Serau-Ger, Gluu-Ger</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="5aa9c780-46e0-c7bf-f03f-1111cc9941f1" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Breetai" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="+2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="+2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="High Lord, Leadership 5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="5d6db54b-4eb5-5aeb-8b3e-db2d70ac82cf" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
           <modifiers>
@@ -651,18 +738,6 @@ These reinforcements move 2 inches onto the battlefield from any point along the
       <profiles/>
       <links/>
     </entry>
-    <entry id="4f7644ae-cc68-4a4f-0b23-6b9cbbce1621" name="Gluu-Ger" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="ce4e761d-8557-c6d9-9ffd-86da7bc705e6" targetId="6fec0178-d817-8eea-6225-37b757f0cefc" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="098d978e-b3a9-ace0-a7ae-4cf929ca36e0" name="Gluuhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -715,33 +790,110 @@ These reinforcements move 2 inches onto the battlefield from any point along the
     <entry id="9bee408c-2f03-d574-66ce-a3dcc875afb8" name="Grell" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="53dce204-e777-1f63-8091-91fb73de972c" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="00a19235-e3dc-9f91-d674-99967bd196ce" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="928f7be7-6b6b-6d88-cdb8-7329388609ce" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="5d285b5d-7703-9e36-bffb-2b5338923d78" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="9692388c-d4e4-e044-8f09-7cb58ddb261b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="ba12f51e-dbe3-72c6-b9a4-8def4413430a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c38f4b2f-17b3-d5dd-e937-8bfec9a32e84" name="Calling for Reinforcements" hidden="false">
           <description>Regults destroyed within 8 inches of Grell may be put aside to return as Reinforcements even if he doesn&apos;t have line of sight to them. Grell may set aside Regults from his squadron as Reinforcements no matter what mecha he is piloting.</description>
           <modifiers/>
         </rule>
+        <rule id="f1a7de36-228a-233b-c7bd-13bf19722cd2" name="Available Mecha (Grell)" hidden="false">
+          <description>Regult, Glaug, Glaug-Eldare, Nousjadeul-Ger, Serau-Ger, Gluu-Ger</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="322704cc-b610-39cc-7dfe-3736c7cae83c" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Grell" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Calling for Reinforcements"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="e1536d5f-de86-cc06-339f-883ed57618d6" name="Khyron" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="53dce204-e777-1f63-8091-91fb73de972c" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="928f7be7-6b6b-6d88-cdb8-7329388609ce" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="5d285b5d-7703-9e36-bffb-2b5338923d78" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="9692388c-d4e4-e044-8f09-7cb58ddb261b" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="ba12f51e-dbe3-72c6-b9a4-8def4413430a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a5ff0b16-6e94-53c1-7fa7-42f4d7af47ba" name="The Backstabber" hidden="false">
           <description>Whe Khyron&apos;s squadron activates, his player may destroy a Mecha from his squadron, within 8 inches of Khyron, to gain 3 Command Points. Regults destroyed in this way cannot be set aside to possibly return as Reinforcements.</description>
           <modifiers/>
         </rule>
+        <rule id="1310a3e2-e918-ab6d-c50b-0f6547c83e9c" name="Available Mecha (Khyron)" hidden="false">
+          <description>Glaug, Glaug-Eldare, Nousjadeul-Ger, Serau-Ger, Gluu-Ger</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="bf2aec1c-5b49-b1ba-ec46-26093acd0926" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Khyron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="+1"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="The Backstabber"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="fbc56f9a-2ab5-dc08-1d3d-883c57ffb56d" name="Maloquinn" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="5d285b5d-7703-9e36-bffb-2b5338923d78" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="59bbb8cf-e33e-d8c3-95d9-6f190a64a858" name="Watch the Skies" hidden="false">
           <description>Maloquinn&apos;s 32mm Plasma Machine Pistols get the Anti-Missile ability.</description>
@@ -751,22 +903,84 @@ These reinforcements move 2 inches onto the battlefield from any point along the
           <description>Maloquinn&apos;s Nousjadeul-Ger has a second copy of the 32mm Plasma Machine Pistol weapon system.</description>
           <modifiers/>
         </rule>
+        <rule id="c6b1af7b-75a9-16b7-83d3-ef07918f9834" name="Available Mecha (Maloquinn)" hidden="false">
+          <description>Nousjadeul-Ger</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
-      <links/>
+      <profiles>
+        <profile id="4fc40856-b141-8896-59a0-4c9fd176826a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Maloquinn" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Leadership 1, Maloquinn&apos;s Pistols, Watch the Skies"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9385492a-a72f-7461-39ae-8e4d16a65f39" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" name="Miriya-Parina" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="3882f550-ec36-ee32-9ab8-c418ea08a739" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="247f705b-a765-eb11-876c-efdb814fc1dc" name="Aggressive" hidden="false">
           <description>Miriya can re-roll all of her Strike rolls. Remember, no single roll can be re-rolled more than once.</description>
           <modifiers/>
         </rule>
+        <rule id="f81b54b4-e37b-47f7-d8e4-c87c5771c4b5" name="Available Mecha (Miriya-Parina)" hidden="false">
+          <description>Queadluun-Rau</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
-      <links/>
+      <profiles>
+        <profile id="d6a21ce6-ed4f-8042-8039-b67e15e67495" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Miriya-Parina" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Aggressive, Leadership +2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="240d9e8e-38f5-4dfd-03ea-e0dd5009a2e3" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="5d285b5d-7703-9e36-bffb-2b5338923d78" name="Nousjadeul-Ger" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -779,14 +993,42 @@ These reinforcements move 2 inches onto the battlefield from any point along the
     <entry id="26dae009-989b-82be-b7cc-8d9cc79737ef" name="Pirion-Galarr" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="00a19235-e3dc-9f91-d674-99967bd196ce" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c2bad04f-1d05-c843-81af-d425439b48b1" name="Swarm" hidden="false">
           <description>Once per game, when Pirion-Galarr&apos;s squadron is activated, all of the mecha in the squadron can automatically boost their SPD once that turn without paying any Command Points or making Piloting rolls.</description>
           <modifiers/>
         </rule>
+        <rule id="5f6e3028-48e9-fe09-9d18-29d5d8368e54" name="Available Mecha (Pirion-Galarr)" hidden="false">
+          <description>Regult</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="976bcc39-7d07-2dbd-4068-62880689d726" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Pirion-Galarr" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Swarm"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" name="Polus-Mjor" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -815,14 +1057,42 @@ These reinforcements move 2 inches onto the battlefield from any point along the
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="5d285b5d-7703-9e36-bffb-2b5338923d78" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ee5de0a5-6c1d-4299-5051-2dc9a7bbb4f3" name="Up Close and Personal" hidden="false">
           <description>Polus-Mjor may make an additional hand-to-hand attack each turn for free.</description>
           <modifiers/>
         </rule>
+        <rule id="42d13202-6f40-5d88-2974-c23a428d772d" name="Available Mecha (Polus-Mjor)" hidden="false">
+          <description>Nousjadeul-Ger</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="b59f546d-0ebf-fe7c-a433-22c777f2ca0b" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Polus-Mjor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="+1"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="UEDF Spartan Shock Baton, Up Close and Personal"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="3882f550-ec36-ee32-9ab8-c418ea08a739" name="Queadluun-Rau" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1043,14 +1313,42 @@ These reinforcements move 2 inches onto the battlefield from any point along the
     <entry id="05ac8852-9872-49e4-d929-465bcc711c59" name="Sulreen-Tehr" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="2400b0ce-6c71-1c95-5280-e2c8debd0bd7" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="fdc4f29a-5311-bc48-98b6-56e5ca8c35d8" name="Experienced Pilot" hidden="false">
           <description>When Sulreen-Tehr turns an Aircraft he is piloting, it can be turned to face any direction.</description>
           <modifiers/>
         </rule>
+        <rule id="77fe3d0f-7ff1-db7a-4a16-5af942077684" name="Available Mecha (Sulreen-Tehr)" hidden="false">
+          <description>Gnerl</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="4ad14ee4-ceef-196a-a80b-1754dddb2d31" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Sulreen-Tehr" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Experienced Pilot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="9c065a63-4593-ffc6-2213-0327285d4218" name="Support: Gluuhaug-Regult Squad" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">

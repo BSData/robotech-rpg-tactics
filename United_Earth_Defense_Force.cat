@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="3" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="4" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f861a5bf-a518-aa05-2a36-5a39ac594842" name="Area Denial Destroid Squadron" points="60.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -665,28 +665,84 @@ This free attack may be taken during the current turn or the next turn, dependin
       <modifiers/>
     </rule>
   </rules>
-  <links/>
+  <links>
+    <link id="487f7659-4564-ee80-9df4-93ae773e04cc" targetId="9c769232-69a6-cce5-7b84-d5bbae4d06aa" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="6d06850b-ed26-9de2-0b0f-d3e52aee1e9b" targetId="9c26eaf2-bbfd-2aef-bf01-d17ddbca3715" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="7719e6fe-fb49-2cba-6b88-14fe674e2040" targetId="4c25e934-ba86-9a53-d861-ffa96ef86adb" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="87bdfb53-c136-cda1-d015-d6e63d6383f9" targetId="066a4abe-cf71-3bfb-f222-ed739151d63e" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="65ec1145-2bfa-a395-2490-1255249ba270" targetId="4003611d-707f-4adf-5e8d-7a0e0c7d76fb" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="c34eabaf-5d00-ad7d-3803-2035f28656d0" targetId="9901a17b-2c2d-8abc-e7dc-145730576b15" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="58dedf94-25ff-ea0d-2731-8a9e683811ad" targetId="58650734-4951-806e-3abf-7ae9733e631c" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="c08ebacf-9d1c-70f5-ae87-54642a68b7c1" targetId="cf5df8fb-ee5e-f1ff-8137-af242a4aa041" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+    <link id="30cfdfc5-3e43-7e6b-288d-843c3943e97e" targetId="ddc64b71-dd27-56e9-7d01-b226b093c09f" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+      <modifiers/>
+    </link>
+  </links>
   <sharedEntries>
     <entry id="9c769232-69a6-cce5-7b84-d5bbae4d06aa" name="Ben Dixon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="5a791746-2263-8ace-900c-ac715448cbb9" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="da712ad4-97d4-dfc8-9640-2fc6d9cd97eb" name="Selfless" hidden="false">
           <description>When a mecha within 4 inches of Ben&apos;s VF-1A is hit, his player may choose to have Ben take the hit instead.</description>
           <modifiers/>
         </rule>
+        <rule id="0e84391d-779c-e1dc-8aeb-08463bafcf83" name="Available Mecha (Ben Dixon)" hidden="false">
+          <description>VF-1A (Standard/Armored/Super/Jotun)</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="7f22c335-4eab-ae02-3dc0-00763ce99074" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Ben Dixon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Selfless"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
-    <entry id="2c286d15-5ab4-5b1b-b639-76eeb57fe522" name="Defender" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2c286d15-5ab4-5b1b-b639-76eeb57fe522" name="Destroid Defender" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e42aa365-c577-f1b9-d9b8-43d1f58390f3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Defender" hidden="false">
+        <profile id="e42aa365-c577-f1b9-d9b8-43d1f58390f3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Defender" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
@@ -704,13 +760,13 @@ This free attack may be taken during the current turn or the next turn, dependin
         </link>
       </links>
     </entry>
-    <entry id="d1b45fe1-e970-8f70-321b-419832b9abc8" name="Defender (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d1b45fe1-e970-8f70-321b-419832b9abc8" name="Destroid Defender (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="3bdda2f2-651d-13b5-337e-7f4cf9af2565" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Defender (Command)" hidden="false">
+        <profile id="3bdda2f2-651d-13b5-337e-7f4cf9af2565" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Defender (Command)" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
@@ -739,13 +795,82 @@ This free attack may be taken during the current turn or the next turn, dependin
         </link>
       </links>
     </entry>
+    <entry id="ebec7e3b-9087-3927-4572-ef710893f7ab" name="Defender Air-Burst Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3dc9e5c5-45a8-646c-2b47-26bcb311eb15" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual M-996 78mm Anti-Aircraft Auto-Cannons (Air-Burst Munitions)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="36"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="4"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Accurate, Anti-Missile, Blast, Rapid Fire, Rear Fire, Split Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1e1b1eb-158c-7107-b054-43861dcc1913" targetId="e0008460-131d-cd46-9ead-390b4fbe0dd6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1174016e-a31b-a9c8-6ab2-bc3a884a1e26" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c61fe38-025a-1e76-d64b-277585e877c5" targetId="4838b47d-5aed-5708-82ec-6bfdb1322fff" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f3e0fbd1-0887-d389-26d8-f36866529ef9" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f32e6918-b565-d581-bbc5-14d6be146cef" targetId="98fad1a3-8528-36d0-1804-1732785288d1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="45322701-097f-0143-d120-bb08fc1fd49b" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="672ec449-c979-0170-ed7d-88ca8c577149" name="Defender Anti-Aircraft Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2092f07d-a391-8de1-48fe-924dcb43c2c6" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual M-996 78mm Anti-Aircraft Auto-Cannons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="36"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="8"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Accurate, Anti-Missile, Rapid Fire, Rear Fire, Split Fire"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fc67126d-3809-aa82-1647-ac7724e6cdd9" targetId="98fad1a3-8528-36d0-1804-1732785288d1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c0393cc9-d180-7c9e-a763-b61399827813" targetId="4838b47d-5aed-5708-82ec-6bfdb1322fff" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d826ce24-f980-a642-790e-f61bd4f49f31" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7d7dd982-2954-432f-6c0a-7d4c94571edf" targetId="e0008460-131d-cd46-9ead-390b4fbe0dd6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="88edfd91-54d7-b9b3-f288-eaa9000e22d7" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d74395b0-c2ce-9a9a-0292-d6a177f999e7" name="Destroid Tomahawk" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="e92db202-b5e5-90b4-7e03-c146dd69ed87" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Tomahawk Destroid" hidden="false">
+        <profile id="e92db202-b5e5-90b4-7e03-c146dd69ed87" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Tomahawk" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="19"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
@@ -787,7 +912,7 @@ This free attack may be taken during the current turn or the next turn, dependin
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="d747c12f-d9bd-0d2b-2598-fb8950dd6f93" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Tomahawk Destroid (Command)" hidden="false">
+        <profile id="d747c12f-d9bd-0d2b-2598-fb8950dd6f93" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Tomahawk (Command)" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="19"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
@@ -837,14 +962,43 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="9c26eaf2-bbfd-2aef-bf01-d17ddbca3715" name="Dietrich" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="d74395b0-c2ce-9a9a-0292-d6a177f999e7" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="d4a40722-a639-2892-e251-bdddfb59bab3" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="f411d81e-18a9-8c19-8500-c59c959c5b70" name="Fire At Will" hidden="false">
           <description>Dietrich can fire 1 additional weapn system per turn for free.</description>
           <modifiers/>
         </rule>
+        <rule id="b28d274a-b754-8910-10e3-42bf2c123d48" name="Available Mecha (Dietrich)" hidden="false">
+          <description>Tomahawk</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="8ee73dab-cd5b-932d-c2e9-d7a38f04b2f2" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Dietrich" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Fire at Will, Leadership 1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="0409981d-d9c1-2c3e-5214-58a7320f718f" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
           <modifiers>
@@ -985,14 +1139,43 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="4c25e934-ba86-9a53-d861-ffa96ef86adb" name="Freeman Davidoff" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="d1b45fe1-e970-8f70-321b-419832b9abc8" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="2c286d15-5ab4-5b1b-b639-76eeb57fe522" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1e894d07-0092-877e-74cb-0f702ab4c78a" name="Itchy Trigger Finger" hidden="false">
           <description>Freedman&apos;s Dual M-996 78mm Anti-Aircraft Auto-Cannons may be fired one additional time as per Rapid Fire each turn. So he can attack with the weapon systems a total of 3 times per turn, at the standard cost of one Command Point per additional attack.</description>
           <modifiers/>
         </rule>
+        <rule id="1a357a5b-06b6-21ce-6d86-47d408661f21" name="Available Mecha (Freeman Davidoff)" hidden="false">
+          <description>Defender</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="3e5faebf-6e74-32b0-c000-560b9516ae03" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Freeman Davidoff" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Itchy Trigger Finger"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="3f112914-5c04-6842-9562-6685c92ef1fd" name="GU-11 Gun Pod" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
@@ -1047,7 +1230,20 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="066a4abe-cf71-3bfb-f222-ed739151d63e" name="Kain Weller" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="b29444e6-5fef-db1c-7844-c054e8200308" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="fd8c19b7-1dbb-21b6-8cbf-d17230dcdef0" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="68f94626-38f7-346e-bc36-ad12fba91d77" name="Charge" hidden="false">
           <description>Kain can boost his SPD automatically once each turn without paying Command Points or making a Piloting roll.</description>
@@ -1057,7 +1253,31 @@ This free attack may be taken during the current turn or the next turn, dependin
           <description>Kain can make one additional hand-to-hand attack per turn for free.</description>
           <modifiers/>
         </rule>
+        <rule id="d9669bb7-6193-ad93-318b-fe1065dde807" name="Available Mecha (Kain Weller)" hidden="false">
+          <description>Spartan</description>
+          <modifiers/>
+        </rule>
       </rules>
+      <profiles>
+        <profile id="4616193e-38e4-628a-4a74-4872c22ed680" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Kain Weller" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Charge, Hand-to-Hand Specialist"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="16d2c91d-db14-af3d-756a-ce0edc6047b1" name="LAC-20 CIWS Auto-Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
       <profiles/>
       <links/>
     </entry>
@@ -1148,20 +1368,54 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="4003611d-707f-4adf-5e8d-7a0e0c7d76fb" name="Magnus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="04e9f430-b9e2-2d40-525e-d3351468de9a" name="Slow and Steady" hidden="false">
           <description>If Magnus hasn&apos;t moved yet during a turn, his PIL is 3. This applies only while in Armored VF form.</description>
           <modifiers/>
         </rule>
+        <rule id="b197981e-91d1-f12b-9576-ad9c73a59a6e" name="Available Mecha (Magnus)" hidden="false">
+          <description>Armored VF-1A</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="710f35ac-6a46-b19c-96ce-b8fce45005b4" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Magnus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Slow and Steady"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="9901a17b-2c2d-8abc-e7dc-145730576b15" name="Max Sterling" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="5a791746-2263-8ace-900c-ac715448cbb9" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="2d3fbb6b-f2a6-aa60-c7c2-212d12a236e5" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="89a9e2bd-cdc5-c748-34f2-7a7ee98c719e" name="True Love (Max)" hidden="false">
           <description>While Max is within 4 inches of Miriya, and they are in the same army, he gains her Aggressive ability as well.</description>
@@ -1171,8 +1425,24 @@ This free attack may be taken during the current turn or the next turn, dependin
           <description>Max can re-roll all of his Dodge rolls that fail. Remember, no single roll can be re-rolled more than once.</description>
           <modifiers/>
         </rule>
+        <rule id="e5b5ae9a-97f3-b946-a0c4-b4742ab2461f" name="Availble Mecha (Max Sterling)" hidden="false">
+          <description>VF-1A (Standard/Super/Armored/Jotun), VF-1J (Standard/Super/Armored/Jotun)</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="c230eebe-48eb-f1bf-a159-c0e46dc78cb4" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Max Sterling" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="+1"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Prescient, True Love"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="d531ea03-f08e-f9b2-c334-ccc0bc3c8ab0" name="MDS-M-4 Mini-Missile Delivery System" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
@@ -1266,7 +1536,20 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="58650734-4951-806e-3abf-7ae9733e631c" name="Miriya Sterling" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="5a791746-2263-8ace-900c-ac715448cbb9" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="2d3fbb6b-f2a6-aa60-c7c2-212d12a236e5" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ab0f1f32-e034-01d5-e1e9-d030afee513c" name="True Love (Miriya)" hidden="false">
           <description>While Miriya is within 4 inches of Max, and they are in the same army, she gains his Prescient ability as well.</description>
@@ -1276,17 +1559,33 @@ This free attack may be taken during the current turn or the next turn, dependin
           <description>Miriya may re-roll all of her failed Strike rolls. Remember, no single roll can be re-rolled more than once.</description>
           <modifiers/>
         </rule>
+        <rule id="cb0ce483-20a1-741b-2e13-dfa62a8b7b18" name="Available Mecha (Miriya Sterling)" hidden="false">
+          <description>VF-1A (Standard/Super/Armored/Jotun), VF-1J (Standard/Super/Armored/Jotun)</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="96a6a2d7-c2e9-d6e6-73cc-bf382b65dcb7" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Miriya Sterling" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Aggressive, True Love"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
-    <entry id="9926de75-bd0c-91ce-eaec-957ab0d7dd39" name="Phalanx" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="9926de75-bd0c-91ce-eaec-957ab0d7dd39" name="Destroid Phalanx" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="a8a2a14f-1f6d-e7a9-601d-f1da9191d2b3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Phalanx" hidden="false">
+        <profile id="a8a2a14f-1f6d-e7a9-601d-f1da9191d2b3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Phalanx" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
@@ -1304,13 +1603,13 @@ This free attack may be taken during the current turn or the next turn, dependin
         </link>
       </links>
     </entry>
-    <entry id="5317c264-6f58-5c86-21c5-f4fa6396dcaa" name="Phalanx (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5317c264-6f58-5c86-21c5-f4fa6396dcaa" name="Destroid Phalanx (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="ba5865c0-0d88-677e-9c39-42504e57b3e0" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Phalanx (Command)" hidden="false">
+        <profile id="ba5865c0-0d88-677e-9c39-42504e57b3e0" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Phalanx (Command)" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
@@ -1332,6 +1631,144 @@ This free attack may be taken during the current turn or the next turn, dependin
           </modifiers>
         </link>
         <link id="e1864117-10de-4c95-ac95-3ad79afd936d" targetId="ba638e38-6564-52ee-1ad2-2a84e40af527" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="16373403-4f6f-0cb0-de93-5a4948f1248f" name="Phalanx Artillery Rockets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a44ea897-f42f-11ee-949b-e85ce3b6bc94" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual MDS-H-22 Derringer Missile Launcher (Artillery Rockets)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="36"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="9/missile"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 11, Blast, Indirect Fire, Missile, Overwhelming, Rapid Fire, Volley 4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="76389695-3a1f-e9b8-04d4-801a45133685" targetId="68c780c2-174c-6976-64ac-59df7c8575f3" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="11" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="28f1f7a8-a9a6-f91e-3e1a-b62d9ec22f38" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0b1b92d7-7925-5ef1-cde4-3d22ee381bbe" targetId="e9b00cb3-06e5-5dee-8d13-567d435d53bb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="986f15b7-69d0-0c81-fef0-cbcd0c98f641" targetId="17972fe3-dc25-db39-5a72-544d15c41ce4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f9681522-57fd-d7f6-e433-bb3b3e4381a1" targetId="b09f7a92-6089-2f95-8b8e-1e60c5f5387b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9febf2f3-b86b-c3a6-20be-29b44f5b6210" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="80f528be-8290-fa77-ecaa-22aebd558aa9" targetId="24270075-6546-50e8-5b87-a139d55c81dc" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="6b3f778d-07df-0133-d702-4bca6d7c800c" name="Phalanx Missiles" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7d70906b-36c7-5506-547b-adb10e796c45" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual MDS-H-22 Derringer Missile Launcher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="48"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="9/missile"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 11, Blast, Missile, Rear Fire, Volley 4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3232753d-54a9-690e-e690-dd6529c65a30" targetId="68c780c2-174c-6976-64ac-59df7c8575f3" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="11" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="ff94875a-85f1-b5e2-428a-8a918a8c6ba4" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c29a72eb-0b22-bbc4-0e86-b7cd19bc613d" targetId="17972fe3-dc25-db39-5a72-544d15c41ce4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a6e0bc34-446d-2acf-9b0c-222116704cac" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cccd8ac9-5077-e7d7-6481-797f03ef96d9" targetId="24270075-6546-50e8-5b87-a139d55c81dc" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="4cb499ce-d825-8639-9189-5e3d64bb1af7" name="Phalanx Scorpio Advanced Artillery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1706cd2e-8765-b6bf-ee77-a38ec29ad69f" name="Scorpio" hidden="false">
+          <description>Missiles fired by the Scorpio cannot be shot down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2466b661-64fa-86f5-616d-61d3756486b4" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Phalanx Scorpio Advanced Dual Artillery" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="48"/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="10/missile"/>
+            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 4, Blast, Indirect Fire, Inescapable, Missile, Rear Fire, Scorpio"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="eea9ee9a-1409-8562-2ab0-51880632e40a" targetId="68c780c2-174c-6976-64ac-59df7c8575f3" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="16a0bf0b-f503-4445-dacf-26b9cb5ba319" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="04119eb1-fe5c-947a-618c-d55436122ae2" targetId="e9b00cb3-06e5-5dee-8d13-567d435d53bb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="de784eb5-ce01-16fa-b293-8d27a3da7920" targetId="6c056b6c-58fe-b012-0d8e-1e003121287e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dcb42b26-099f-9f33-a061-a7e0be12b5e6" targetId="17972fe3-dc25-db39-5a72-544d15c41ce4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b1ae60b5-abee-ca69-7435-1c01667e9c36" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1400,20 +1837,62 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="cf5df8fb-ee5e-f1ff-8137-af242a4aa041" name="Rick Hunter" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="5a791746-2263-8ace-900c-ac715448cbb9" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="2d3fbb6b-f2a6-aa60-c7c2-212d12a236e5" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="e947760c-2170-a09b-567b-139c6b37cad7" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="bc187f36-b8fc-2de1-cb91-d723d0212926" name="Natural Pilot" hidden="false">
           <description>Rick can boost his SPD once automatically each turn without paying Command Points or making a Piloting roll.</description>
           <modifiers/>
         </rule>
+        <rule id="17321e6f-8736-9ffb-4c4d-e988c313315d" name="Available Mecha (Rick Hunter)" hidden="false">
+          <description>VF-1A (Standard/Super/Armored/Jotun), VF-1J (Standard/Super/Armored/Jotun), VF-1S (Standard/Super/Armored/Jotun)</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="4557aa7d-5a20-2b2f-87f8-7491e7d76473" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Rick Hunter" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="+1"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Natural Pilot"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="ddc64b71-dd27-56e9-7d01-b226b093c09f" name="Roy Fokker" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="e947760c-2170-a09b-567b-139c6b37cad7" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="180bc5ec-ec34-f2df-8a60-3f038992a3ee" name="Double Ace" hidden="false">
           <description>Roy may attempt to Dodge twice per turn without paying any Command Points</description>
@@ -1423,8 +1902,24 @@ This free attack may be taken during the current turn or the next turn, dependin
           <description>When Roy&apos;s mecha runs out of MDC, roll a D6. On a roll of 4+, Roy isn&apos;t destroyed until the end of the next turn, and will remain on the board, even if he suffers more damage, until then.</description>
           <modifiers/>
         </rule>
+        <rule id="6af03e34-e548-8eeb-7cd6-9cf3ab51a5da" name="Available Mecha (Roy Fokker)" hidden="false">
+          <description>VF-1S (Standard/Super/Armored/Jotun)</description>
+          <modifiers/>
+        </rule>
       </rules>
-      <profiles/>
+      <profiles>
+        <profile id="bb44a3d9-dd47-1804-c76e-83d17be82275" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Roy Fokker" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="+1"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Double Ace, Iron Will, Leadership +1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links>
         <link id="4d9fa625-5631-9ed2-a49c-73f59a65a16f" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
           <modifiers>
@@ -1472,7 +1967,7 @@ This free attack may be taken during the current turn or the next turn, dependin
         </link>
       </links>
     </entry>
-    <entry id="fd8c19b7-1dbb-21b6-8cbf-d17230dcdef0" name="Spartan" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="fd8c19b7-1dbb-21b6-8cbf-d17230dcdef0" name="Destroid Spartan" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1483,14 +1978,14 @@ This free attack may be taken during the current turn or the next turn, dependin
         </rule>
       </rules>
       <profiles>
-        <profile id="b603c372-1dda-88a5-6b00-ad8641b4031a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Spartan Destroid" hidden="false">
+        <profile id="b603c372-1dda-88a5-6b00-ad8641b4031a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Spartan" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="16"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
             <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
             <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
             <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Focus Fire, Hands"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Brawler, Focus Fire, Hands"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1533,7 +2028,7 @@ This free attack may be taken during the current turn or the next turn, dependin
         </link>
       </links>
     </entry>
-    <entry id="b29444e6-5fef-db1c-7844-c054e8200308" name="Spartan (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b29444e6-5fef-db1c-7844-c054e8200308" name="Destroid Spartan (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1544,14 +2039,14 @@ This free attack may be taken during the current turn or the next turn, dependin
         </rule>
       </rules>
       <profiles>
-        <profile id="a24b19b9-04d4-4041-ee98-e7dc4429208d" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Spartan (Command)" hidden="false">
+        <profile id="a24b19b9-04d4-4041-ee98-e7dc4429208d" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Spartan (Command)" hidden="false">
           <characteristics>
             <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="16"/>
             <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
             <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
             <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
             <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Focus Fire, Hands, Leadership 2"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Brawler, Focus Fire, Hands, Leadership 2"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -2678,221 +3173,6 @@ This free attack may be taken during the current turn or the next turn, dependin
       <rules/>
       <profiles/>
       <links/>
-    </entry>
-    <entry id="16d2c91d-db14-af3d-756a-ce0edc6047b1" name="LAC-20 CIWS Auto-Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="16373403-4f6f-0cb0-de93-5a4948f1248f" name="Phalanx Artillery Rockets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a44ea897-f42f-11ee-949b-e85ce3b6bc94" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual MDS-H-22 Derringer Missile Launcher (Artillery Rockets)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="36"/>
-            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="9/missile"/>
-            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 11, Blast, Indirect Fire, Missile, Overwhelming, Rapid Fire, Volley 4"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="76389695-3a1f-e9b8-04d4-801a45133685" targetId="68c780c2-174c-6976-64ac-59df7c8575f3" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="11" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="28f1f7a8-a9a6-f91e-3e1a-b62d9ec22f38" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0b1b92d7-7925-5ef1-cde4-3d22ee381bbe" targetId="e9b00cb3-06e5-5dee-8d13-567d435d53bb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="986f15b7-69d0-0c81-fef0-cbcd0c98f641" targetId="17972fe3-dc25-db39-5a72-544d15c41ce4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f9681522-57fd-d7f6-e433-bb3b3e4381a1" targetId="b09f7a92-6089-2f95-8b8e-1e60c5f5387b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9febf2f3-b86b-c3a6-20be-29b44f5b6210" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="80f528be-8290-fa77-ecaa-22aebd558aa9" targetId="24270075-6546-50e8-5b87-a139d55c81dc" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="6b3f778d-07df-0133-d702-4bca6d7c800c" name="Phalanx Missiles" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="7d70906b-36c7-5506-547b-adb10e796c45" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual MDS-H-22 Derringer Missile Launcher" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="48"/>
-            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="9/missile"/>
-            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 11, Blast, Missile, Rear Fire, Volley 4"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3232753d-54a9-690e-e690-dd6529c65a30" targetId="68c780c2-174c-6976-64ac-59df7c8575f3" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="11" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="ff94875a-85f1-b5e2-428a-8a918a8c6ba4" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c29a72eb-0b22-bbc4-0e86-b7cd19bc613d" targetId="17972fe3-dc25-db39-5a72-544d15c41ce4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a6e0bc34-446d-2acf-9b0c-222116704cac" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cccd8ac9-5077-e7d7-6481-797f03ef96d9" targetId="24270075-6546-50e8-5b87-a139d55c81dc" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="4cb499ce-d825-8639-9189-5e3d64bb1af7" name="Phalanx Scorpio Advanced Artillery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="1706cd2e-8765-b6bf-ee77-a38ec29ad69f" name="Scorpio" hidden="false">
-          <description>Missiles fired by the Scorpio cannot be shot down.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="2466b661-64fa-86f5-616d-61d3756486b4" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Phalanx Scorpio Advanced Dual Artillery" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="48"/>
-            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="10/missile"/>
-            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 4, Blast, Indirect Fire, Inescapable, Missile, Rear Fire, Scorpio"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="eea9ee9a-1409-8562-2ab0-51880632e40a" targetId="68c780c2-174c-6976-64ac-59df7c8575f3" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="16a0bf0b-f503-4445-dacf-26b9cb5ba319" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="04119eb1-fe5c-947a-618c-d55436122ae2" targetId="e9b00cb3-06e5-5dee-8d13-567d435d53bb" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="de784eb5-ce01-16fa-b293-8d27a3da7920" targetId="6c056b6c-58fe-b012-0d8e-1e003121287e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="dcb42b26-099f-9f33-a061-a7e0be12b5e6" targetId="17972fe3-dc25-db39-5a72-544d15c41ce4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b1ae60b5-abee-ca69-7435-1c01667e9c36" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ebec7e3b-9087-3927-4572-ef710893f7ab" name="Defender Air-Burst Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3dc9e5c5-45a8-646c-2b47-26bcb311eb15" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual M-996 78mm Anti-Aircraft Auto-Cannons (Air-Burst Munitions)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="36"/>
-            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="4"/>
-            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Accurate, Anti-Missile, Blast, Rapid Fire, Rear Fire, Split Fire"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e1e1b1eb-158c-7107-b054-43861dcc1913" targetId="e0008460-131d-cd46-9ead-390b4fbe0dd6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1174016e-a31b-a9c8-6ab2-bc3a884a1e26" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1c61fe38-025a-1e76-d64b-277585e877c5" targetId="4838b47d-5aed-5708-82ec-6bfdb1322fff" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f3e0fbd1-0887-d389-26d8-f36866529ef9" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f32e6918-b565-d581-bbc5-14d6be146cef" targetId="98fad1a3-8528-36d0-1804-1732785288d1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="45322701-097f-0143-d120-bb08fc1fd49b" targetId="4e51116b-bff2-4ab7-3499-6069b9b5e1bc" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="672ec449-c979-0170-ed7d-88ca8c577149" name="Defender Anti-Aircraft Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2092f07d-a391-8de1-48fe-924dcb43c2c6" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="Dual M-996 78mm Anti-Aircraft Auto-Cannons" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="36"/>
-            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="8"/>
-            <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Accurate, Anti-Missile, Rapid Fire, Rear Fire, Split Fire"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="fc67126d-3809-aa82-1647-ac7724e6cdd9" targetId="98fad1a3-8528-36d0-1804-1732785288d1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c0393cc9-d180-7c9e-a763-b61399827813" targetId="4838b47d-5aed-5708-82ec-6bfdb1322fff" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d826ce24-f980-a642-790e-f61bd4f49f31" targetId="ca89f303-50eb-435e-45f3-5198d93b58cf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7d7dd982-2954-432f-6c0a-7d4c94571edf" targetId="e0008460-131d-cd46-9ead-390b4fbe0dd6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="88edfd91-54d7-b9b3-f288-eaa9000e22d7" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
