@@ -1,91 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="1" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="3" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c14ffe52-616e-9a35-07a6-83d17072b41e" name="Regult Artillery Squadron" points="90.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="282abc3b-2cd5-f537-0c2b-0fb946daf637" name="Gluuhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="534ffb6a-1cff-7e18-eb1f-2b70c27029f9" name="Hand-to-Hand (Gluuhaug-Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="c143cccc-e0b9-5b33-ff47-9d8c697ee59a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Gluuhaug-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="aaef0676-4985-3730-171d-f94709687d4a" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="717ea263-3fdb-8a43-c82f-19359a3cf5ec" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="6a6ad22f-3fdf-2390-25bf-0cb27d7c252f" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="00e015ec-0b10-5405-e074-1140d4c14081" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="73ffd932-c8a9-0a8a-cae3-ffd08c648d7f" targetId="d2e8800e-a3a5-eaf8-a38a-5fa7e3c62ffc" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="de190134-ff06-f137-c70c-cb1e5f1c3368" name="Serauhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="04fbebd1-e601-0b81-9ce0-8efb52a3ad93" name="Hand-to-Hand (Serauhaug-Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="5a504501-3be2-455e-08ef-20995148bf54" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Serauhaug-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="c64c0578-01dd-e1f8-4324-d0f35c78cde3" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4199a62e-c5ea-5589-b881-9fa25a2c8430" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="5319e679-95df-5391-fdec-91613a0e0087" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="35afd889-9927-9530-bee3-6355290448ad" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e9ffbdfc-3cae-acd8-8580-a7dd974f21c8" targetId="1794a324-0fe1-4dc6-4da1-9026b7e538bf" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups>
         <entryGroup id="085ab5f4-0faf-8145-8d6c-c04655560237" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -93,16 +10,6 @@
           <modifiers/>
           <links>
             <link id="5a8c4eb2-ac3a-4b03-1865-9dfc597cf0ac" targetId="89508eec-7f5c-e338-aca7-4544af4063f2" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="085ab5f4-0faf-8145-8d6c-c04655560237" childId="13484f88-7158-907a-91b1-76c4d1d54bf1" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="052373fd-2824-6ea3-21f0-dc371c65b1ef" targetId="13484f88-7158-907a-91b1-76c4d1d54bf1" linkType="entry">
               <modifiers/>
             </link>
             <link id="80b28fb0-4283-e11a-6545-2224fea9ca27" targetId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" linkType="entry">
@@ -122,6 +29,36 @@
             </link>
           </links>
         </entryGroup>
+        <entryGroup id="c95294bf-0aa0-36a1-d50a-1a449970d40a" name="Special Cards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1f5fd9b1-a82a-f459-86b9-6346c408f064" targetId="13484f88-7158-907a-91b1-76c4d1d54bf1" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="faf302a5-e8d2-822c-656e-66969b0a0ee5" name="Gluuhaug-Regults" defaultEntryId="075bb08e-bf2b-b711-189f-ef4d18e35ec8" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="075bb08e-bf2b-b711-189f-ef4d18e35ec8" targetId="098d978e-b3a9-ace0-a7ae-4cf929ca36e0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="5c6a57da-8316-ed8b-7032-543f694e183a" name="Serauhaug-Regults" defaultEntryId="92b5dfb8-bd3e-cd80-7b2f-90e111a2eb56" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="92b5dfb8-bd3e-cd80-7b2f-90e111a2eb56" targetId="0c5ebbfb-0260-0cf2-a970-8afe4cdd106a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
@@ -129,165 +66,8 @@
       <links/>
     </entry>
     <entry id="a5f73460-67a4-f7b8-58a5-3ba508552dd9" name="Regult Attack Squadron" points="80.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9d4f413e-3272-33fa-1930-336349667904" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="69b0733f-33d9-fe0e-7f2b-b50ac4109feb" name="Hand-To-Hand (Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="78e919ee-b6a0-df8e-1980-fe18501f2ec7" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
-              </characteristics>
-              <modifiers>
-                <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="false" numRepeats="1" incrementParentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" incrementChildId="d01817a0-0fea-ee8f-6085-92d5623e8cc3" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="d01817a0-0fea-ee8f-6085-92d5623e8cc3" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="1" repeat="false" numRepeats="1" incrementParentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" incrementChildId="d01817a0-0fea-ee8f-6085-92d5623e8cc3" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="d01817a0-0fea-ee8f-6085-92d5623e8cc3" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </profile>
-          </profiles>
-          <links>
-            <link id="0a886c8e-63cb-6e4b-9fec-038abb11f4ba" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="2f003f20-c04b-219e-e9fc-20a9d328cb9a" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="26d77a67-abdb-1e43-978a-9f6c56b91247" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="dffab64e-0da5-973c-7766-03c40b3b0f21" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="acc8b108-b1f2-5c8d-559a-8bf7e638dc02" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="481c5b26-44d3-4ef9-b6b9-e5f8f332d735" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d01817a0-0fea-ee8f-6085-92d5623e8cc3" name="Veteran Warriors" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups>
-        <entryGroup id="35fa1749-23ba-cd04-52af-1559bad2c998" name="Leader" defaultEntryId="43d37abc-680d-f667-1c8f-cf7e3ddc644c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="0a7af1db-1f6c-48a3-202e-3e3b623d8c01" name="Glaug-Eldare" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="43d37abc-680d-f667-1c8f-cf7e3ddc644c" name="Glaug" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="607b736b-b80e-1cee-8154-2858adaa6b39" name="Hand-to-Hand (Glaug)" hidden="false">
-                  <description>Body Block, Kick, Jump Kick, Punch, Power Punch, Stomp</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="a2a0a289-d817-a077-b060-162154aeb3c0" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Glaug" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
-                    <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
-                    <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-                    <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
-                    <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="7"/>
-                    <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leadership 4, Leap"/>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="ae3339dd-4921-10c5-9319-32f1df56b29a" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" value="Focus Fire, Leadership 5, Leap" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="fd622e8b-4438-9e64-f262-82f2471f01b8" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <links>
-                <link id="93f2e46c-640a-2627-8ff7-1d796cbcc0ba" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="b6947840-2219-6c91-2b0a-6f5ea5fd4f0f" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="fd622e8b-4438-9e64-f262-82f2471f01b8" field="selections" type="equal to" value="0.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="append" field="name" value="5" repeat="false" numRepeats="1" incrementParentId="43d37abc-680d-f667-1c8f-cf7e3ddc644c" incrementChildId="4872c279-1eee-c999-54fb-81e88cddc3a5" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="fd622e8b-4438-9e64-f262-82f2471f01b8" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="1c0806b6-4a3e-9c9a-0138-565c7b9b7bcb" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="5ee59958-a32c-3953-aeea-49813e404816" targetId="4e0be654-7945-d76e-44d4-d8efef929088" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="9111e796-d2b3-ec28-a1d7-09b04eaff9a8" targetId="ac2b4ac7-321b-caae-8c59-c92a68e4166c" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="730994d7-8722-5212-367f-cff1516d9c3c" targetId="6beee25d-0ba7-6a70-3f21-a65bad591420" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="7420df93-f9ab-49cb-beb3-0cc6db602401" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="fbc4415a-49c1-42fd-f118-38771774b10c" targetId="39df6873-42ae-cb99-222d-e69b31ffcdc4" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
         <entryGroup id="e01a903a-6232-e92e-0671-49bcabad8630" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -313,28 +93,30 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="ec77cdb5-fa99-8f15-2ebf-c8864abfa206" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="f7e2f9a2-dcd9-b87d-29aa-39761ecbe13b" name="Leader" defaultEntryId="a78fc6f4-1051-01e0-7067-3e2660dce175" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="61ad0c17-9048-2b6e-7355-0d8e7cc9e19f" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+            <link id="a78fc6f4-1051-01e0-7067-3e2660dce175" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
               <modifiers/>
             </link>
-            <link id="fd622e8b-4438-9e64-f262-82f2471f01b8" targetId="dfa854d6-92ef-95e5-90bb-1e6ac898d53b" linkType="entry">
+            <link id="69ca8c15-fd84-4849-2b3c-fa69c11f0b42" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
               <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="a5f73460-67a4-f7b8-58a5-3ba508552dd9" childId="43d37abc-680d-f667-1c8f-cf7e3ddc644c" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
+                <modifier type="increment" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
-            <link id="076efef7-87ee-b7c8-1adc-f3d42266e094" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ae3339dd-4921-10c5-9319-32f1df56b29a" targetId="e1536d5f-de86-cc06-339f-883ed57618d6" linkType="entry">
+          </links>
+        </entryGroup>
+        <entryGroup id="b947b524-c18e-7585-3b0c-d207d06eb9f4" name="Members" defaultEntryId="9d6055d9-1dd3-fc5c-06ab-a9fa7fdeb5f9" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9d6055d9-1dd3-fc5c-06ab-a9fa7fdeb5f9" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -343,76 +125,23 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="e89b30a8-03ab-b354-71af-ebe2480d46f8" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="b51eb055-0d59-226c-5c18-29421328def7" name="Regult Attrition Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="d9d66f4a-7a19-8453-842f-540a2a8b3dc7" name="Veteran Warriors" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="812ffbb0-7709-5e93-38ba-b1bcd1a49418" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="12" maxSelections="12" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="53495d1f-5605-8c38-3ce9-45025eaacba6" name="Hand-To-Hand (Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="aea596a1-1a5f-5b53-0d90-e4d1f3fad0f0" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
-              </characteristics>
-              <modifiers>
-                <modifier type="set" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="b51eb055-0d59-226c-5c18-29421328def7" childId="d9d66f4a-7a19-8453-842f-540a2a8b3dc7" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="b51eb055-0d59-226c-5c18-29421328def7" childId="d9d66f4a-7a19-8453-842f-540a2a8b3dc7" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </profile>
-          </profiles>
-          <links>
-            <link id="fc2082ee-e40a-a8f1-0bae-e69bfca7d0c8" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="260a59d1-de8e-3cd6-7ffb-03526802b4b6" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="31a8590e-2b30-ee95-578f-0d6c7b761483" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="e3215192-3cbf-f73c-bc18-302e9ebd0d6b" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d3c05c81-cff8-a583-f061-75033e7b8a87" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d1358147-bce8-1302-95d5-59caa7e6ae44" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups>
         <entryGroup id="83e0b95a-ce47-86bd-1562-54455ede3c42" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -422,21 +151,11 @@
             <link id="8d377f4d-6a03-e5b0-d21a-fa405125b5bf" targetId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" linkType="entry">
               <modifiers/>
             </link>
-            <link id="04d8db24-e1e6-130f-32d3-e2a8909299f3" targetId="13484f88-7158-907a-91b1-76c4d1d54bf1" linkType="entry">
-              <modifiers/>
-            </link>
             <link id="0ffd8d26-f551-b247-c349-2c436f1a95d0" targetId="9aa471a2-b889-5bf8-9433-86649d82e79a" linkType="entry">
               <modifiers/>
             </link>
             <link id="a98ae9cb-18aa-282c-acfb-b5396e8483e6" targetId="89508eec-7f5c-e338-aca7-4544af4063f2" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="83e0b95a-ce47-86bd-1562-54455ede3c42" incrementChildId="04d8db24-e1e6-130f-32d3-e2a8909299f3" incrementField="points" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="83e0b95a-ce47-86bd-1562-54455ede3c42" childId="13484f88-7158-907a-91b1-76c4d1d54bf1" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </link>
             <link id="d2ca48eb-7867-3660-b653-6cd4f354a87e" targetId="d26a52db-1912-2b73-095b-9c52f1a4867c" linkType="entry">
               <modifiers/>
@@ -449,15 +168,22 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="b431edb5-fb14-cf26-3099-c11b2f3b3ecc" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="f27b6733-e96d-b5e9-d92e-0b3791820be1" name="Special Cards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="a90dc45d-a3a0-cb65-6ea8-ee58057aa111" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+            <link id="711868ab-9d01-c505-b1c5-6690e42a9e34" targetId="13484f88-7158-907a-91b1-76c4d1d54bf1" linkType="entry">
               <modifiers/>
             </link>
-            <link id="1627ca33-bffb-b3b5-8f9a-c3b2de69f851" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+          </links>
+        </entryGroup>
+        <entryGroup id="b267796b-0d44-fc5f-b8ea-3ba0257c83fa" name="Members" defaultEntryId="db06cf76-e1f5-21a0-d448-0b16170cfa02" minSelections="12" maxSelections="12" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="db06cf76-e1f5-21a0-d448-0b16170cfa02" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -466,121 +192,27 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="e268d7a1-c5ae-df08-5cb5-4e80acc930d6" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="b7b5446f-1fec-fd25-400c-98ba710b942d" name="Regult Recon Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="a0d21dc7-0b18-8730-c3de-3cc09f7c2e57" name="Veteran Warriors" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="534dfcc2-53c6-a5e8-a4cd-500e9ef31788" name="Quel-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="a771d95f-eb09-b1d9-d255-41499ec40aac" name="Hand-to-Hand (Quel-Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-            <rule id="d009f3cf-c528-249d-d423-176fb55d4ade" name="Advanced Reconnaissance Suite" hidden="false">
-              <description>When the Quel-Regult activates, you may spend 2 Command Points to make it so that friendly mecha within 12 inches of the Quel-Regult, when they make a ranged attack, get a +1 bonus to Strike. This effect lasts until the next time the Quel-Regult is activated.</description>
-              <modifiers/>
-            </rule>
-            <rule id="f6441c36-80d5-38fb-ffc6-ee955bd93533" name="Electronic Attack Suite" hidden="false">
-              <description>When the Quel-Regult is activated, you may spend 1 Command Point to inflict a -1 penalty to Strike in ranged combat on a single enemy mecha within a 24-inch range of the Quel-Regult until the end of the turn. Multiple mecha can be affected at the cost of one Command Point per additional mecha.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="690a23c7-3d8a-006d-5ea8-44c874c49f3a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Leadership 2, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="7077010c-72f9-0e35-5411-a721ca7c0a34" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-              <modifiers>
-                <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="0938acdf-7406-1983-b51e-cb203125be35" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="0c6cd1ea-e90f-ec46-6ea8-97a7b05e8ba8" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="1d61a235-ad52-1a59-f2b8-36baa00b57f5" name="Hand-To-Hand (Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="af1a0acd-f884-d4c8-17b2-1fbcdb62df4b" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
-              </characteristics>
-              <modifiers>
-                <modifier type="set" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="a0d21dc7-0b18-8730-c3de-3cc09f7c2e57" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="a0d21dc7-0b18-8730-c3de-3cc09f7c2e57" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </profile>
-          </profiles>
-          <links>
-            <link id="61e77292-eb1d-0259-48e9-d1e66247da7e" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="d0571f49-f600-499a-43f2-7aafe5298d49" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4a0c00a2-edb5-242a-5410-ba5590cb5aea" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="a3205658-44ff-d622-26ef-410f252ef350" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="7b5e7e3f-4643-cb4c-fa29-8d573934648c" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4e8b3355-a5e6-754e-b1c9-3b3ff73fcd43" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups>
         <entryGroup id="4ee02ed0-5574-a330-5840-f6a62887d11b" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -607,119 +239,40 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="91351490-cc7d-539c-f117-62a73350d00a" name="Leader" defaultEntryId="daf6bbc7-e117-fb87-e6ab-730ba6b20f77" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="5d0721d6-3aac-5d8a-b0a8-ea9262069925" name="Glaug-Eldare" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="daf6bbc7-e117-fb87-e6ab-730ba6b20f77" name="Glaug" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="d400d10b-399f-18ec-1939-393388bbb61d" name="Hand-to-Hand (Glaug)" hidden="false">
-                  <description>Body Block, Kick, Jump Kick, Punch, Power Punch, Stomp</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="23fdab6f-1727-ac52-2ac2-0794f2a9a18b" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Glaug" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
-                    <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
-                    <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-                    <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
-                    <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="7"/>
-                    <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leadership 4, Leap"/>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="increment" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="e83ea023-1bc7-ef33-78c2-35a2eebc8dcd" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" value="Focus Fire, Leadership 5, Leap" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="74bc38ac-5b5b-c12e-5add-a0ab1b0aaf9d" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <links>
-                <link id="a62701c1-85bc-6f16-d6e4-42dea6294b3a" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="c517090f-0004-f006-bc1c-6c975f20089b" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="74bc38ac-5b5b-c12e-5add-a0ab1b0aaf9d" field="selections" type="equal to" value="0.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="append" field="name" value="5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions>
-                        <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="74bc38ac-5b5b-c12e-5add-a0ab1b0aaf9d" field="selections" type="equal to" value="1.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="759d2ab2-be37-6e89-2c21-5530dbcb99be" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="7c1d302a-73ea-e6a5-6a33-d12acec22185" targetId="4e0be654-7945-d76e-44d4-d8efef929088" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="c3d1a131-9972-fe2a-e8a1-076f329fc713" targetId="ac2b4ac7-321b-caae-8c59-c92a68e4166c" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="7f0792cc-0e42-72eb-6f49-50a0169cf83e" targetId="6beee25d-0ba7-6a70-3f21-a65bad591420" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="906a675e-9454-89ec-ab1b-27676438cd07" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="bd3dffb9-a484-ff92-a698-a9cc1dd70c01" targetId="39df6873-42ae-cb99-222d-e69b31ffcdc4" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="c5cbfcf1-c7b9-c421-f0ff-816e4d574546" name="Special Character" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="91351490-cc7d-539c-f117-62a73350d00a" name="Leader" defaultEntryId="ee502926-6712-ec0d-7a3b-f930b5d5bcba" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="74bc38ac-5b5b-c12e-5add-a0ab1b0aaf9d" targetId="dfa854d6-92ef-95e5-90bb-1e6ac898d53b" linkType="entry">
+            <link id="ee502926-6712-ec0d-7a3b-f930b5d5bcba" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="14876e00-2f93-d0a3-2b00-54bdf47e9432" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
               <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="b7b5446f-1fec-fd25-400c-98ba710b942d" childId="daf6bbc7-e117-fb87-e6ab-730ba6b20f77" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
+                <modifier type="increment" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
-            <link id="48686966-a001-aa0e-2792-b95981915731" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+          </links>
+        </entryGroup>
+        <entryGroup id="6840471f-67c4-78f9-0b26-058e08999797" name="Members" defaultEntryId="10073676-fb1d-0ec9-f84b-c566ff7b9752" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="10073676-fb1d-0ec9-f84b-c566ff7b9752" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
               <modifiers/>
             </link>
-            <link id="e83ea023-1bc7-ef33-78c2-35a2eebc8dcd" targetId="e1536d5f-de86-cc06-339f-883ed57618d6" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="011f9453-412e-8803-8497-9321b743e84a" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+          </links>
+        </entryGroup>
+        <entryGroup id="7dd3f2d9-019a-22c0-fa13-550b8e2b8e8a" name="Quel-Regult" defaultEntryId="0275e9d9-0237-42d7-3775-dc0cc84a8659" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="0275e9d9-0237-42d7-3775-dc0cc84a8659" targetId="486bd410-6aa5-3fd9-37c1-ea65ede9963b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -728,10 +281,26 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="a1695516-b4d4-cdc8-20ca-03e218c58e47" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
   </entries>
-  <rules/>
+  <rules>
+    <rule id="ed3380a1-9c23-5671-11e2-92cebff806d1" name="Reinforcements" hidden="false">
+      <description>Whenever a Regult is destroyed within 8 inches and LoS of a Glaug from the same Squadron, set the Regult aside. At the beginning of any subsequent turn, during the Pre-Action Effects Step of the Command Phase, you may pay one Command point for each Glaug currently on the battlefield which has Regults set aside from its&apos; squadron. For each Command Point spent, all of the destroyed Regults from one specific Glaug&apos;s squadron that were set aside are returned to the game as new reinforcements for that Glaug&apos;s squadron. And Glaug-Eldare may be treated as a Glaug for the purposes of this rule.
+
+These reinforcements move 2 inches onto the battlefield from any point along the board edge in your deployment zone during the Pre-Action Effects Step after the Command Point is paid. These reinforcements become normal members of the squadrons they have reinforced.</description>
+      <modifiers/>
+    </rule>
+  </rules>
   <links/>
   <sharedEntries>
     <entry id="4e0be654-7945-d76e-44d4-d8efef929088" name="128mm Charged Particle Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
@@ -770,7 +339,7 @@
         <profile id="e8cb4c28-2756-daa1-c381-78c545cd36ed" profileTypeId="2f4ee661-b22c-5bc7-2be5-4b29659de5df" name="150mm Short Range Missile Tubes" hidden="false">
           <characteristics>
             <characteristic characteristicId="fee0e456-6546-f88c-6a7b-0ea52dc82dea" name="Range" value="18"/>
-            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value=""/>
+            <characteristic characteristicId="475986ea-2379-5ead-62fc-02a1de67df02" name="Strength" value="6"/>
             <characteristic characteristicId="e6cfc351-6c97-5cdb-a44f-035963ab7782" name="Rules" value="Ammo 6, Anti-Missile, Missile, Volley X"/>
           </characteristics>
           <modifiers/>
@@ -791,15 +360,24 @@
         </link>
       </links>
     </entry>
-    <entry id="dfa854d6-92ef-95e5-90bb-1e6ac898d53b" name="Azonia" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="881bf33b-7207-b948-a2f4-c554c68c35df" name="Azonia" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="7bed524f-e593-4079-1196-be1323b5231b" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
-    <entry id="6fec0178-d817-8eea-6225-37b757f0cefc" name="Breetai" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6fec0178-d817-8eea-6225-37b757f0cefc" name="Breetai" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1002,86 +580,139 @@
         </link>
       </links>
     </entry>
-    <entry id="13484f88-7158-907a-91b1-76c4d1d54bf1" name="Support: Glaug" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="928f7be7-6b6b-6d88-cdb8-7329388609ce" name="Glaug" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="05415c1c-edec-b9f2-8d71-17865cf6836e" name="Select One" defaultEntryId="d39d9469-10b2-f8c6-7120-0b28bde0d242" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d39d9469-10b2-f8c6-7120-0b28bde0d242" name="Glaug" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules>
-                <rule id="147ad3fa-f9af-2854-2643-bca865cc2524" name="Hand-to-Hand (Glaug)" hidden="false">
-                  <description>Body Block, Kick, Jump Kick, Punch, Power Punch, Stomp</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="8d9591cb-11b9-4f53-c8e3-b6b401817da5" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Glaug" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
-                    <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
-                    <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-                    <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
-                    <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="7"/>
-                    <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leadership 4, Leap"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="6790698f-ce4e-2827-d367-0c3203fd54c5" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="e5d0ad4d-fa7a-e431-126e-8d8a51e0d0df" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="19e8259e-525d-fc4b-ddb6-de8704052285" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="055ad8fd-5794-236a-ce64-004619430e14" targetId="4e0be654-7945-d76e-44d4-d8efef929088" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="4ed9f7d9-d892-a1c8-1a89-ed86c80cbb2b" targetId="ac2b4ac7-321b-caae-8c59-c92a68e4166c" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="c08b39ac-d10a-311e-d9a0-c7fb490e2514" targetId="6beee25d-0ba7-6a70-3f21-a65bad591420" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="0f4a2b06-234f-d9d2-b210-169b9ad8ac40" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="6ae9eca5-aab3-5128-6fb2-94fabe7c48b2" targetId="39df6873-42ae-cb99-222d-e69b31ffcdc4" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5772e384-26ec-5879-034e-1390ed2cdd73" name="Glaug-Eldare" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="23e1639d-3c48-aad7-a298-22554294d25b" name="Hand-to-Hand (Glaug)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Punch, Power Punch, Stomp</description>
           <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="fa0fbd2d-8812-52f1-75ae-3626560e5d73" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Glaug" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="7"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leadership 4, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5efde841-c293-baca-3174-d52db9aac94a" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a967b95c-44bb-3767-816f-4cf5241269f8" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="f3d121ac-b5a5-0fde-9a78-2797a10f03d9" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a804eedd-b0fe-04eb-6f87-8dd96899c119" targetId="4e0be654-7945-d76e-44d4-d8efef929088" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="46c8a722-17d4-ab0a-fda2-e16ab7e8ee1d" targetId="ac2b4ac7-321b-caae-8c59-c92a68e4166c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f08e8e2e-326d-7da3-78d0-a0269b838ede" targetId="6beee25d-0ba7-6a70-3f21-a65bad591420" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2f28533e-2313-2b21-da0d-10582a574d50" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8079e813-29eb-9a20-4e38-35fcb1c540c1" targetId="39df6873-42ae-cb99-222d-e69b31ffcdc4" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="53dce204-e777-1f63-8091-91fb73de972c" name="Glaug-Eldare" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="9bee408c-2f03-d574-66ce-a3dcc875afb8" name="Grell" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ba12f51e-dbe3-72c6-b9a4-8def4413430a" name="Gluu-Ger" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4f7644ae-cc68-4a4f-0b23-6b9cbbce1621" name="Gluu-Ger" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ce4e761d-8557-c6d9-9ffd-86da7bc705e6" targetId="6fec0178-d817-8eea-6225-37b757f0cefc" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="098d978e-b3a9-ace0-a7ae-4cf929ca36e0" name="Gluuhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="034dec2d-3552-f480-eea2-2c455e212111" name="Hand-to-Hand (Gluuhaug-Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6319f4eb-2834-63ae-86b9-fe8cec00faac" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Gluuhaug-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4ecc31ea-05e6-582d-0d07-24d46e7ba085" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5e080ea5-5d16-899b-3aeb-62e97cdef7f6" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="24716c5f-11d4-beae-d034-dfc0f91d381f" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="08ca8c72-e617-5cd8-71a7-bf8fadb0ae0b" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d8a89851-5692-2e64-40f2-ea0f32a86511" targetId="d2e8800e-a3a5-eaf8-a38a-5fa7e3c62ffc" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2400b0ce-6c71-1c95-5280-e2c8debd0bd7" name="Gnerl" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9bee408c-2f03-d574-66ce-a3dcc875afb8" name="Grell" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1094,7 +725,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="e1536d5f-de86-cc06-339f-883ed57618d6" name="Khyron" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e1536d5f-de86-cc06-339f-883ed57618d6" name="Khyron" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1124,7 +755,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" name="Miriya-Parina" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" name="Miriya-Parina" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1137,12 +768,20 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="26dae009-989b-82be-b7cc-8d9cc79737ef" name="Pirion-Galarr" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5d285b5d-7703-9e36-bffb-2b5338923d78" name="Nousjadeul-Ger" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="26dae009-989b-82be-b7cc-8d9cc79737ef" name="Pirion-Galarr" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="a92d3e9d-026e-f306-6b10-8eb07146ba2f" name="Swarm" hidden="false">
+        <rule id="c2bad04f-1d05-c843-81af-d425439b48b1" name="Swarm" hidden="false">
           <description>Once per game, when Pirion-Galarr&apos;s squadron is activated, all of the mecha in the squadron can automatically boost their SPD once that turn without paying any Command Points or making Piloting rolls.</description>
           <modifiers/>
         </rule>
@@ -1150,7 +789,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" name="Polus-Mjor" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" name="Polus-Mjor" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="2746af0f-fc1d-6952-d6c5-16f9af59b135" name="UEDF Spartan Shock Batons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1186,75 +825,216 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="28cea9ef-42ce-a95c-51d5-71676fce5a9d" name="Support: Regult Squad" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="bb1daa8b-87be-7095-056c-5fc105185f1e" name="Veteran Warriors" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3882f550-ec36-ee32-9ab8-c418ea08a739" name="Queadluun-Rau" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="93eaa392-0883-4e03-6570-ecd282977f9a" name="Quel-Gulnau" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bb51b18f-cfe8-256a-1bc5-368ccc3ba6d2" name="Hand-to-Hand (Quel-Gulnau)" hidden="false">
+          <description>Body Block, Grab, Punch, Power Punch</description>
+          <modifiers/>
+        </rule>
+        <rule id="874b7df6-b235-b384-3d75-02c0244cfa23" name="Recovery and Salvage" hidden="false">
+          <description>While a Quel-Gulnau is within 2 inches of a Glaug (or Glaug-Eldare), it extends the Glaug&apos;s normal 8-inch range for setting aside destroyed Regults to 12 inches, but the Glaug (or Glaug-Eldare) must still have line of sight to the Regults destroyed in its squadron in order to set them aside for later use as possible reinforcements. This ability is not cumulative with additional Quel-Gulnau or Glaug.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="79443033-eb37-994c-c7c2-9ec4d20e3805" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Gulnau" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="9"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Flight, Hands, Hover"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="486bd410-6aa5-3fd9-37c1-ea65ede9963b" name="Quel-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2319ca5e-0b4d-512d-206c-e1aa5386ed96" name="Hand-to-Hand (Quel-Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+        <rule id="96e3224c-a2d7-3432-95c2-f3dace6bc800" name="Advanced Reconnaissance Suite" hidden="false">
+          <description>When the Quel-Regult activates, you may spend 2 Command Points to make it so that friendly mecha within 12 inches of the Quel-Regult, when they make a ranged attack, get a +1 bonus to Strike. This effect lasts until the next time the Quel-Regult is activated.</description>
+          <modifiers/>
+        </rule>
+        <rule id="04066ea1-df15-d775-e379-74a069323b54" name="Electronic Attack Suite" hidden="false">
+          <description>When the Quel-Regult is activated, you may spend 1 Command Point to inflict a -1 penalty to Strike in ranged combat on a single enemy mecha within a 24-inch range of the Quel-Regult until the end of the turn. Multiple mecha can be affected at the cost of one Command Point per additional mecha.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ba00560c-8829-9e70-0d87-a286ba4fbea6" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Leadership 2, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8a0e5452-4a07-fcb5-5294-19d9bbf1f702" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="a7c13903-e91d-7fe8-e26c-59375e3b60d4" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="00a19235-e3dc-9f91-d674-99967bd196ce" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4cf4999d-ac0e-9124-309e-fc47634ebc98" name="Hand-To-Hand (Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b95fbec4-ee20-a876-33a0-7380e6a66554" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="19001637-cff9-340b-3206-17a7affb8854" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="745e8e5e-b8c9-6d94-5181-4182e9589ce4" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5afe4537-e960-c4c8-aeea-9ef1ffe72322" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41dc8551-e40f-e7ce-d4e4-420a0b6c134c" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d11c97c5-a371-735a-4dcd-f15a4d58b01f" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f2b8bf3e-a246-5bd8-16b0-c126a0d9323c" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9692388c-d4e4-e044-8f09-7cb58ddb261b" name="Serau-Ger" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0c5ebbfb-0260-0cf2-a970-8afe4cdd106a" name="Serauhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="51fc3f01-c185-57b6-b790-7c33b7e241a4" name="Hand-to-Hand (Serauhaug-Regult)" hidden="false">
+          <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="12de6126-b251-6609-ee1a-c86c81bfe10f" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Serauhaug-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d09a6474-46a8-911a-9240-f8b271130556" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eb947801-3f53-6295-e800-d2271f0500fd" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1aa00d4c-3cad-19d0-9df8-c399989de06b" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="70ba996b-ebb7-0d8d-c729-a9f8fe878206" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="52411a96-dc63-c79e-8464-c41d13a1c412" targetId="1794a324-0fe1-4dc6-4da1-9026b7e538bf" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="13484f88-7158-907a-91b1-76c4d1d54bf1" name="Special: Glaug" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="05415c1c-edec-b9f2-8d71-17865cf6836e" name="Select One" defaultEntryId="8db4d360-aec6-3c69-85bc-0fda21cefbde" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="05d4ccad-214c-5a61-dafa-f82c5d65dcd2" name="Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="bbfa57a0-b0d4-63b2-bade-2d2cd968f1cc" name="Hand-To-Hand (Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
+          <links>
+            <link id="8db4d360-aec6-3c69-85bc-0fda21cefbde" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
               <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="ac885da1-eb4c-9af7-9934-bbb675cd3d8a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="1"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap, Life is Cheap"/>
-              </characteristics>
+            </link>
+            <link id="ce37983f-45d3-8858-9d01-7498cc974f07" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
               <modifiers>
-                <modifier type="set" field="f9561215-b484-ebe9-7961-cc15d6e520fa" value="3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" childId="bb1daa8b-87be-7095-056c-5fc105185f1e" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="28cea9ef-42ce-a95c-51d5-71676fce5a9d" childId="bb1daa8b-87be-7095-056c-5fc105185f1e" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
+                <modifier type="set" field="points" value="30.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </profile>
-          </profiles>
-          <links>
-            <link id="7b9922a3-ae9c-0a35-f3d8-94059d768d43" targetId="f79aef9d-df4b-953b-e741-c6a3984cc61b" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="a9ec9564-6012-5dd2-0f68-2454a6b596c1" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="e7633b28-a180-e7d5-d0b7-7aedfcff3656" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="32175d09-340a-885e-dc68-f67c4dbe4f42" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="641dc085-6007-1d58-5af2-bede4a70bfa3" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ca411116-f5e6-b329-e59e-0ef623cb356b" targetId="33261c5c-8ea6-9162-9722-5d29d5ef3135" linkType="entry">
-              <modifiers/>
             </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -1273,241 +1053,192 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="9aa471a2-b889-5bf8-9433-86649d82e79a" name="Support: Quel-Regult" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="4f16f4c3-8868-5078-0577-0aeaa09848fb" name="Quel-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="9c065a63-4593-ffc6-2213-0327285d4218" name="Support: Gluuhaug-Regult Squad" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="cbd828c0-b5d9-106a-738c-c464b6739227" name="Members" defaultEntryId="1d27528d-4884-e1a0-559a-19bfc3bea839" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules>
-            <rule id="4bdbc171-1659-9a73-7740-7dc018510e33" name="Hand-to-Hand (Quel-Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-            <rule id="bcf4aaa9-5001-3ad4-a18d-790c9e232717" name="Advanced Reconnaissance Suite" hidden="false">
-              <description>When the Quel-Regult activates, you may spend 2 Command Points to make it so that friendly mecha within 12 inches of the Quel-Regult, when they make a ranged attack, get a +1 bonus to Strike. This effect lasts until the next time the Quel-Regult is activated.</description>
-              <modifiers/>
-            </rule>
-            <rule id="7c9ef019-3bd2-b86b-b612-2d141ecd0d18" name="Electronic Attack Suite" hidden="false">
-              <description>When the Quel-Regult is activated, you may spend 1 Command Point to inflict a -1 penalty to Strike in ranged combat on a single enemy mecha within a 24-inch range of the Quel-Regult until the end of the turn. Multiple mecha can be affected at the cost of one Command Point per additional mecha.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="9da55576-9eba-b05d-0221-6e671af9a33f" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Leadership 2, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
           <links>
-            <link id="975c9201-8473-1574-ee4b-5ca1d3fcde96" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+            <link id="1d27528d-4884-e1a0-559a-19bfc3bea839" targetId="098d978e-b3a9-ace0-a7ae-4cf929ca36e0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="89508eec-7f5c-e338-aca7-4544af4063f2" name="Support: Quel-Gulnau" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="c2b02099-3782-ddf4-fca6-53852aa1fd9f" name="Members" defaultEntryId="9d20d1f7-ca97-1982-52a8-214880ca48b1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9d20d1f7-ca97-1982-52a8-214880ca48b1" targetId="93eaa392-0883-4e03-6570-ecd282977f9a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="direct parent" childId="928f7be7-6b6b-6d88-cdb8-7329388609ce" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9aa471a2-b889-5bf8-9433-86649d82e79a" name="Support: Quel-Regult" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="90d5e541-0afc-7250-11f4-8b3c826e11e1" name="Members" defaultEntryId="a1db6f1c-c614-8b02-693d-f3186fca326c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a1db6f1c-c614-8b02-693d-f3186fca326c" targetId="486bd410-6aa5-3fd9-37c1-ea65ede9963b" linkType="entry">
               <modifiers>
-                <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
-            <link id="e7b928da-cc56-ea91-f362-81c081958c42" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
-    <entry id="89508eec-7f5c-e338-aca7-4544af4063f2" name="Support: Quel-Gulnau" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="8be8acc5-61b8-7d33-1928-80f4b0ef0fba" name="Quel-Gulnau" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="28cea9ef-42ce-a95c-51d5-71676fce5a9d" name="Support: Regult Squad" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f6b517fa-6e8c-fb61-5196-83be6075185b" name="Members" defaultEntryId="81234d08-441c-dd54-6f03-d13199406224" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules>
-            <rule id="1fdd3791-1d9a-e943-935c-59046a4d5e85" name="Hand-to-Hand (Quel-Gulnau)" hidden="false">
-              <description>Body Block, Grab, Punch, Power Punch</description>
+          <links>
+            <link id="81234d08-441c-dd54-6f03-d13199406224" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
               <modifiers/>
-            </rule>
-            <rule id="65ee7332-72a4-9767-c452-701c88917510" name="Recovery and Salvage" hidden="false">
-              <description>While a Quel-Gulnau is within 2 inches of a Glaug (or Glaug-Eldare), it extends the Glaug&apos;s normal 8-inch range for setting aside destroyed Regults to 12 inches, but the Glaug (or Glaug-Eldare) must still have line of sight to the Regults destroyed in its squadron in order to set them aside for later use as possible reinforcements. This ability is not cumulative with additional Quel-Gulnau or Glaug.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="a13b905a-4bfe-5aa2-cf3a-29f1fd895ed6" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Quel-Gulnau" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="9"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="9"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="-"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Flight, Hands, Hover"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="685734dd-c521-fb50-94da-ad7eb9047579" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="d26a52db-1912-2b73-095b-9c52f1a4867c" name="Support: Serauhaug-Regult Squad" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9c0e9704-6138-f674-9863-f22fa28c51cc" name="Serauhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="414a6258-df07-0098-24c2-eab6df13386f" name="Members" defaultEntryId="eb1f86a0-e8f1-9988-4ebd-af877c8c4b98" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules>
-            <rule id="2677bf47-66f6-13ae-7d37-fefa943bce48" name="Hand-to-Hand (Serauhaug-Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="feffee59-91ad-e5fd-4f6a-945bf0065069" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Serauhaug-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
           <links>
-            <link id="d94fc62b-dce9-3218-45ef-ac445024d326" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="02722eed-d122-a3ab-8de9-a7c9bff703cc" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="8a8056cf-8db4-7ab3-493a-2de93cb712ca" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bfa4ff6e-66a6-b660-6c6a-60966de87395" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="87d8e264-d88a-f0c2-ceb0-81917378bc98" targetId="1794a324-0fe1-4dc6-4da1-9026b7e538bf" linkType="entry">
+            <link id="eb1f86a0-e8f1-9988-4ebd-af877c8c4b98" targetId="0c5ebbfb-0260-0cf2-a970-8afe4cdd106a" linkType="entry">
               <modifiers/>
             </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="9c065a63-4593-ffc6-2213-0327285d4218" name="Support: Gluuhaug-Regult Squad" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9d5f20d7-4919-5a26-41a0-b4b3f9b4df2a" name="Gluuhaug-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="5b118b3d-115f-3119-6495-f0c14766ca9a" name="Hand-to-Hand (Gluuhaug-Regult)" hidden="false">
-              <description>Body Block, Kick, Jump Kick, Stomp</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="931d9e05-b1e8-df40-55f8-5d1e830db061" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Gluuhaug-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="eabd144f-7573-b480-ac45-486b09fe1cbc" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="8feb29ef-3173-1823-d15e-ef61d5e46eb4" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="fe7a74fb-aaa3-d857-2a14-b79e7edc4a77" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="06e029ac-463e-0471-c2f2-aef1d9a1e3ac" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="01f8e8eb-77df-d29c-7a43-da257fb02765" targetId="d2e8800e-a3a5-eaf8-a38a-5fa7e3c62ffc" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
       <links/>
     </entry>
     <entry id="3281baca-fa44-ef17-b308-40799e1449c6" name="Support: Telnesta-Regult Squad" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="8af6669b-5a01-6a78-77e2-901b9e05e73e" name="Telnesta-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="4a5d084a-109a-a929-f05a-4bdc79724acb" name="Members" defaultEntryId="3f9e4e16-7c65-d1c3-accc-f5e0b1c29c40" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules>
-            <rule id="f8a393cd-9473-8247-a51c-00cc0de2bf4a" name="Hand-to-Hand (Telnesta-Regult)" hidden="false">
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="6f6fda44-8df9-be99-e4b8-2b4db295cbae" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Telnesta-Regult" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
-                <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
-                <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-                <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-                <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-                <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
           <links>
-            <link id="9095bb01-95ab-5340-796f-81a5da613191" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="5b42ea25-7f47-f509-9c19-803e72145a9d" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="eac972b7-5d32-d5dc-d93d-f16315f45d44" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="49b62c90-1221-4ebb-3e30-18c2753f0fe8" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="7f8ef4f3-38fd-cf72-9d1b-ac3b94457ccb" targetId="5c9a22a7-c58e-0090-e91e-9dd9d3d6cdb3" linkType="entry">
+            <link id="3f9e4e16-7c65-d1c3-accc-f5e0b1c29c40" targetId="8f298bd4-c499-069d-848c-563543b2079a" linkType="entry">
               <modifiers/>
             </link>
           </links>
-        </entry>
-      </entries>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="8f298bd4-c499-069d-848c-563543b2079a" name="Telnesta-Regult" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3abe7506-2949-9601-297a-fece2ff91a1d" name="Hand-to-Hand (Telnesta-Regult)" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0cd22ae7-5a1f-1a1b-0e8f-a6c7975ebd09" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Telnesta-Regult" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="5"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="4"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Focus Fire, Leap"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f19359ba-ed24-cc96-19f4-b98773e14110" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f9765ac-85d8-1bcd-5724-db7a48888a04" targetId="3468997a-e1e8-b887-5079-77aa649535d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3fb12522-7702-f3ce-c496-f0266e7f7610" targetId="dddb0d05-ab8d-e4a8-ea88-657a53e9ef79" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="03135aac-18b6-da94-4139-14a4191b68be" targetId="c0a07582-fb34-9029-bbbb-66ed1d3ab7f9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6008ae04-fe22-3728-0d65-f6e1b3e99456" targetId="5c9a22a7-c58e-0090-e91e-9dd9d3d6cdb3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f1f81416-ecb8-bf1e-431c-bccc77d711d6" name="Veteran Warriors" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
