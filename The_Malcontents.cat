@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bac1ee65-24b3-3c1d-f617-126672be0815" revision="2" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="The Malcontents" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bac1ee65-24b3-3c1d-f617-126672be0815" revision="4" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="The Malcontents" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="86d5029e-a612-a62e-f19f-7d82929a8e14" name="Air Defense Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2052,7 +2052,7 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
         </link>
       </links>
     </entry>
-    <entry id="77525c93-35df-3383-dfec-ee723586b3db" name="LPWS-12 Dual Nose Lasers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+    <entry id="77525c93-35df-3383-dfec-ee723586b3db" name="LPWS-12 Dual Nose Lasers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -3164,46 +3164,6 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
       </profiles>
       <links/>
     </entry>
-    <entry id="1329a588-19ac-a51f-9494-35a979b270e0" name="Super VF-1A" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="b7bde846-28fd-7733-2dab-33f3f808099c" name="Super VF-1A(R)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="35121b18-8af7-29ff-fbde-59d8b2dab1c3" name="Super VF-1J" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="47196f20-bed0-6883-4052-d83aaf4e4cbb" name="Super VF-1J(R)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="fcaaf8ab-d7c5-7b8f-f11e-43861146da62" name="Super VF-1S" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="b686f4a3-d99a-a084-120b-083da1f89d60" name="Support: Assault Destroid Squad" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -3753,6 +3713,9 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
         <link id="3ec57806-1e0f-b2c3-e09b-49e824c9f970" targetId="d6a48bfe-4988-23c5-02d8-09b52baf661e" linkType="entry">
           <modifiers/>
         </link>
+        <link id="7f746c29-9fcc-4164-fbed-c3535be1fedd" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="94f12c50-a87b-5fb6-ed61-5a99056b5c74" name="VF-1AR" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3837,6 +3800,9 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
         <link id="d0808d0c-33b4-1448-c70c-bfb40a3dd759" targetId="16d2c91d-db14-af3d-756a-ce0edc6047b1" linkType="entry">
           <modifiers/>
         </link>
+        <link id="b25e97a0-032b-b8a5-9365-511bf01f4d68" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="2d3fbb6b-f2a6-aa60-c7c2-212d12a236e5" name="VF-1J" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3916,6 +3882,9 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
           <modifiers/>
         </link>
         <link id="8a06cfbb-25a6-ebca-4d0d-346a94c80a37" targetId="df198625-1cf3-2226-30fb-fa75f6f7ef1e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d19e0f46-a003-7c5d-8462-e53d71885b39" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4003,6 +3972,9 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
           <modifiers/>
         </link>
         <link id="1d290c08-3a42-af68-8da6-17f1b4fe99d1" targetId="16d2c91d-db14-af3d-756a-ce0edc6047b1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c5eb0030-ddf1-3ac6-481e-1009f0daa6be" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
           <modifiers/>
         </link>
       </links>

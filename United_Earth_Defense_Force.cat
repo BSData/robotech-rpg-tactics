@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="4" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="28bb4605-aa21-3828-9cff-524126f32aa8" revision="6" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="United Earth Defense Force" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="f861a5bf-a518-aa05-2a36-5a39ac594842" name="Area Denial Destroid Squadron" points="60.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -736,65 +736,6 @@ This free attack may be taken during the current turn or the next turn, dependin
       </profiles>
       <links/>
     </entry>
-    <entry id="2c286d15-5ab4-5b1b-b639-76eeb57fe522" name="Destroid Defender" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="e42aa365-c577-f1b9-d9b8-43d1f58390f3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Defender" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
-            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
-            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="41f56139-368c-341a-dd9f-47fc3b0f9377" targetId="294d9996-cc00-28b3-27c5-6e311a265d85" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d1b45fe1-e970-8f70-321b-419832b9abc8" name="Destroid Defender (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3bdda2f2-651d-13b5-337e-7f4cf9af2565" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Defender (Command)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
-            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
-            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
-            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Leadership 2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="98643ccc-7bdb-3e18-e332-456d3bf38fa2" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="a52bf605-e006-66ee-8674-b0deecfa4e4a" targetId="c0a9712b-ab81-68b5-388e-1ba536889201" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2471f52e-b7ac-b42f-0b1f-dd7831a9983a" targetId="294d9996-cc00-28b3-27c5-6e311a265d85" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="ebec7e3b-9087-3927-4572-ef710893f7ab" name="Defender Air-Burst Munitions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -860,6 +801,254 @@ This free attack may be taken during the current turn or the next turn, dependin
           <modifiers/>
         </link>
         <link id="88edfd91-54d7-b9b3-f288-eaa9000e22d7" targetId="ab40f35e-5c96-eb45-96fd-fcabcbb684e7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2c286d15-5ab4-5b1b-b639-76eeb57fe522" name="Destroid Defender" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e42aa365-c577-f1b9-d9b8-43d1f58390f3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Defender" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="41f56139-368c-341a-dd9f-47fc3b0f9377" targetId="294d9996-cc00-28b3-27c5-6e311a265d85" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d1b45fe1-e970-8f70-321b-419832b9abc8" name="Destroid Defender (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3bdda2f2-651d-13b5-337e-7f4cf9af2565" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Defender (Command)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="6"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Leadership 2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="98643ccc-7bdb-3e18-e332-456d3bf38fa2" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="a52bf605-e006-66ee-8674-b0deecfa4e4a" targetId="c0a9712b-ab81-68b5-388e-1ba536889201" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2471f52e-b7ac-b42f-0b1f-dd7831a9983a" targetId="294d9996-cc00-28b3-27c5-6e311a265d85" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9926de75-bd0c-91ce-eaec-957ab0d7dd39" name="Destroid Phalanx" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a8a2a14f-1f6d-e7a9-601d-f1da9191d2b3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Phalanx" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f8d3c9b6-d79c-c06a-d5f7-3f85ffb33b88" targetId="ba638e38-6564-52ee-1ad2-2a84e40af527" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5317c264-6f58-5c86-21c5-f4fa6396dcaa" name="Destroid Phalanx (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ba5865c0-0d88-677e-9c39-42504e57b3e0" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Phalanx (Command)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Leadership 2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ee6de58f-e5ae-5464-b4eb-59706a2229e2" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="e1864117-10de-4c95-ac95-3ad79afd936d" targetId="ba638e38-6564-52ee-1ad2-2a84e40af527" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fd8c19b7-1dbb-21b6-8cbf-d17230dcdef0" name="Destroid Spartan" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1cb491b8-722c-176a-636d-03460f933e3c" name="Brawler" hidden="false">
+          <description>A Spartan may make an additional hand-to-hand attack each turn for free. Further, all of the Spartan&apos;s hand-to-hand attacks do an additional +2 MD, but are otherwise as normal.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b603c372-1dda-88a5-6b00-ad8641b4031a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Spartan" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="16"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Brawler, Focus Fire, Hands"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="edca9645-38e2-2ac3-a1e9-1f5007d8639d" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cb5d2bb6-a871-69d4-d6d7-42ff3d84f278" targetId="158134e5-09b8-33a6-302c-a5ef4069173a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bc9e3cd9-82f8-aae5-d22e-be8b5cb6d052" targetId="4170a831-3390-1b68-1d2e-b947a0306fa5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a655ba83-76a3-fe75-d3b9-d901a679cc69" targetId="05630d8f-276d-b62a-6aef-3b50f6646a11" linkType="entry">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="f3bbd743-e0a8-0a02-a069-dd0ab210890a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="6f06d465-5aae-234e-6183-be02a056b037" targetId="272d00a7-1d4d-c8d2-92e2-fb751df10ca1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="96947f8d-c310-4b2d-7445-b00f69b29b87" targetId="5a47bc22-043c-e6f4-5c13-e60666f3f09d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="49b140d6-a1c2-dbb8-ccd0-872f37493711" targetId="b13e0329-00c8-f07d-c0f1-ca7d1d2aaa4e" linkType="entry">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="d4a0ff81-1c2f-2eec-5c1a-e78e9fdf8dcd" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="b29444e6-5fef-db1c-7844-c054e8200308" name="Destroid Spartan (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a7c39042-d0a0-1866-2f58-6cd4233219f7" name="Brawler" hidden="false">
+          <description>A Spartan may make an additional hand-to-hand attack each turn for free. Further, all of the Spartan&apos;s hand-to-hand attacks do an additional +2 MD, but are otherwise as normal.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a24b19b9-04d4-4041-ee98-e7dc4429208d" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Spartan (Command)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="16"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Brawler, Focus Fire, Hands, Leadership 2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3d75f9bd-ad40-0035-4672-c204a5324cf4" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0d22de12-e678-b25d-c6d5-a222567193a3" targetId="158134e5-09b8-33a6-302c-a5ef4069173a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="122cca5e-378f-3454-d958-ec6d860aed17" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="99f4018b-5c29-06f2-4b40-ff3e083dca77" targetId="c0a9712b-ab81-68b5-388e-1ba536889201" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4a2e7f01-2770-021f-91fb-7a702bebe9ac" targetId="05630d8f-276d-b62a-6aef-3b50f6646a11" linkType="entry">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="f3bbd743-e0a8-0a02-a069-dd0ab210890a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="f6bd2ca8-a5a2-3b2f-62db-f67ba498b126" targetId="5a47bc22-043c-e6f4-5c13-e60666f3f09d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="03e86b4f-9fd8-28e5-b371-4ecf0eb01541" targetId="b13e0329-00c8-f07d-c0f1-ca7d1d2aaa4e" linkType="entry">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="d4a0ff81-1c2f-2eec-5c1a-e78e9fdf8dcd" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="aee19bb2-2fbd-223f-15f1-1e27d5a078c7" targetId="272d00a7-1d4d-c8d2-92e2-fb751df10ca1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6f4f25cc-a419-e752-0e84-f913c119a55f" targetId="4170a831-3390-1b68-1d2e-b947a0306fa5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1579,62 +1768,6 @@ This free attack may be taken during the current turn or the next turn, dependin
       </profiles>
       <links/>
     </entry>
-    <entry id="9926de75-bd0c-91ce-eaec-957ab0d7dd39" name="Destroid Phalanx" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a8a2a14f-1f6d-e7a9-601d-f1da9191d2b3" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Phalanx" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
-            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
-            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f8d3c9b6-d79c-c06a-d5f7-3f85ffb33b88" targetId="ba638e38-6564-52ee-1ad2-2a84e40af527" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5317c264-6f58-5c86-21c5-f4fa6396dcaa" name="Destroid Phalanx (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ba5865c0-0d88-677e-9c39-42504e57b3e0" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Phalanx (Command)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="11"/>
-            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="5"/>
-            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
-            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="5"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Leadership 2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ee6de58f-e5ae-5464-b4eb-59706a2229e2" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="e1864117-10de-4c95-ac95-3ad79afd936d" targetId="ba638e38-6564-52ee-1ad2-2a84e40af527" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="16373403-4f6f-0cb0-de93-5a4948f1248f" name="Phalanx Artillery Rockets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1967,139 +2100,6 @@ This free attack may be taken during the current turn or the next turn, dependin
         </link>
       </links>
     </entry>
-    <entry id="fd8c19b7-1dbb-21b6-8cbf-d17230dcdef0" name="Destroid Spartan" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="1cb491b8-722c-176a-636d-03460f933e3c" name="Brawler" hidden="false">
-          <description>A Spartan may make an additional hand-to-hand attack each turn for free. Further, all of the Spartan&apos;s hand-to-hand attacks do an additional +2 MD, but are otherwise as normal.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="b603c372-1dda-88a5-6b00-ad8641b4031a" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Spartan" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="16"/>
-            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
-            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="2"/>
-            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="2"/>
-            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Brawler, Focus Fire, Hands"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="edca9645-38e2-2ac3-a1e9-1f5007d8639d" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cb5d2bb6-a871-69d4-d6d7-42ff3d84f278" targetId="158134e5-09b8-33a6-302c-a5ef4069173a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bc9e3cd9-82f8-aae5-d22e-be8b5cb6d052" targetId="4170a831-3390-1b68-1d2e-b947a0306fa5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a655ba83-76a3-fe75-d3b9-d901a679cc69" targetId="05630d8f-276d-b62a-6aef-3b50f6646a11" linkType="entry">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="f3bbd743-e0a8-0a02-a069-dd0ab210890a" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="6f06d465-5aae-234e-6183-be02a056b037" targetId="272d00a7-1d4d-c8d2-92e2-fb751df10ca1" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="96947f8d-c310-4b2d-7445-b00f69b29b87" targetId="5a47bc22-043c-e6f4-5c13-e60666f3f09d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="49b140d6-a1c2-dbb8-ccd0-872f37493711" targetId="b13e0329-00c8-f07d-c0f1-ca7d1d2aaa4e" linkType="entry">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="d4a0ff81-1c2f-2eec-5c1a-e78e9fdf8dcd" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entry>
-    <entry id="b29444e6-5fef-db1c-7844-c054e8200308" name="Destroid Spartan (Command)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="a7c39042-d0a0-1866-2f58-6cd4233219f7" name="Brawler" hidden="false">
-          <description>A Spartan may make an additional hand-to-hand attack each turn for free. Further, all of the Spartan&apos;s hand-to-hand attacks do an additional +2 MD, but are otherwise as normal.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="a24b19b9-04d4-4041-ee98-e7dc4429208d" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Destroid Spartan (Command)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC" value="16"/>
-            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD" value="7"/>
-            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="3"/>
-            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="3"/>
-            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF" value="6"/>
-            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Description" value="Brawler, Focus Fire, Hands, Leadership 2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="3d75f9bd-ad40-0035-4672-c204a5324cf4" targetId="7ebc26c0-2e2d-8cf6-a59e-410f132e4920" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0d22de12-e678-b25d-c6d5-a222567193a3" targetId="158134e5-09b8-33a6-302c-a5ef4069173a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="122cca5e-378f-3454-d958-ec6d860aed17" targetId="b09b01e8-d6f4-40b6-6002-11a5bf67ce7e" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="99f4018b-5c29-06f2-4b40-ff3e083dca77" targetId="c0a9712b-ab81-68b5-388e-1ba536889201" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4a2e7f01-2770-021f-91fb-7a702bebe9ac" targetId="05630d8f-276d-b62a-6aef-3b50f6646a11" linkType="entry">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="f3bbd743-e0a8-0a02-a069-dd0ab210890a" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="f6bd2ca8-a5a2-3b2f-62db-f67ba498b126" targetId="5a47bc22-043c-e6f4-5c13-e60666f3f09d" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="03e86b4f-9fd8-28e5-b371-4ecf0eb01541" targetId="b13e0329-00c8-f07d-c0f1-ca7d1d2aaa4e" linkType="entry">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="d4a0ff81-1c2f-2eec-5c1a-e78e9fdf8dcd" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="aee19bb2-2fbd-223f-15f1-1e27d5a078c7" targetId="272d00a7-1d4d-c8d2-92e2-fb751df10ca1" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6f4f25cc-a419-e752-0e84-f913c119a55f" targetId="4170a831-3390-1b68-1d2e-b947a0306fa5" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="f3bbd743-e0a8-0a02-a069-dd0ab210890a" name="Spartan GU-11 Gun Pod" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2127,7 +2127,7 @@ This free attack may be taken during the current turn or the next turn, dependin
     <entry id="2fd352d6-3d7d-2537-90f6-84bff0d89a24" name="Special: VF-1S" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="4ba2102b-da97-02b2-127e-27ae80da5930" name="Members" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4ba2102b-da97-02b2-127e-27ae80da5930" name="Members" defaultEntryId="2f1eab5c-3c18-e9fd-d257-37921b11957e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2137,55 +2137,54 @@ This free attack may be taken during the current turn or the next turn, dependin
             </link>
           </links>
         </entryGroup>
+        <entryGroup id="5ff54b90-0e45-f9a4-054b-9f4b499b5c6c" name="Valkyrie Weapons" defaultEntryId="64c6bcb8-17d7-26ec-c856-a8808a3039a0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="64c6bcb8-17d7-26ec-c856-a8808a3039a0" targetId="cec7d8e5-7125-a9d0-692e-6118b9f67f16" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="92fd1107-74e2-1118-85e9-d72ac759dfdc" targetId="94f3becd-a64d-5426-a611-f519520772ac" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="ccdf67de-0804-d3a2-572f-22b64b353118" targetId="d4631423-955f-a996-fffb-e7b82ae00a41" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="a8c4b9a2-c6ab-65a7-7d00-ee82f5a7eae6" targetId="34983d3b-f973-b9af-0776-f074f668001c" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
         <link id="4ee71bcd-4c05-b573-4a73-8378adc78b21" targetId="888fc272-16a0-f2c6-e7f2-818bb0c6ddd0" linkType="entry">
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
-    </entry>
-    <entry id="1329a588-19ac-a51f-9494-35a979b270e0" name="Super VF-1A" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="b7bde846-28fd-7733-2dab-33f3f808099c" name="Super VF-1A(R)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="35121b18-8af7-29ff-fbde-59d8b2dab1c3" name="Super VF-1J" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="47196f20-bed0-6883-4052-d83aaf4e4cbb" name="Super VF-1J(R)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="fcaaf8ab-d7c5-7b8f-f11e-43861146da62" name="Super VF-1S" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
     </entry>
     <entry id="783fd24c-1a40-c3d8-5d2d-94a68c523539" name="Support: Defender Destroid Squad" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -2816,7 +2815,7 @@ This free attack may be taken during the current turn or the next turn, dependin
         <link id="3ec57806-1e0f-b2c3-e09b-49e824c9f970" targetId="d6a48bfe-4988-23c5-02d8-09b52baf661e" linkType="entry">
           <modifiers/>
         </link>
-        <link id="65a3a7b4-134d-e39c-9602-ffff519bb8b6" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
+        <link id="89f22729-3e07-316b-4a01-e1b6540320c4" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2891,16 +2890,13 @@ This free attack may be taken during the current turn or the next turn, dependin
         <link id="a7b21ea7-792d-bc0e-8051-3af4777d7bf1" targetId="d6a48bfe-4988-23c5-02d8-09b52baf661e" linkType="entry">
           <modifiers/>
         </link>
-        <link id="f8b5f6e4-0951-78fc-1a91-ffcf9ad71f9c" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="0844f448-2fb0-c51d-d46a-86712aaeebe8" targetId="d531ea03-f08e-f9b2-c334-ccc0bc3c8ab0" linkType="entry">
           <modifiers/>
         </link>
         <link id="99d1abea-72ba-8a66-2274-57f2cb5dcfb3" targetId="7512ca95-44a9-5461-249d-5567ff89e4f0" linkType="entry">
           <modifiers/>
         </link>
-        <link id="62bb2e3f-2f32-e31f-1d91-1a824e2519d8" targetId="272d00a7-1d4d-c8d2-92e2-fb751df10ca1" linkType="entry">
+        <link id="62bb2e3f-2f32-e31f-1d91-1a824e2519d8" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
           <modifiers/>
         </link>
         <link id="d0808d0c-33b4-1448-c70c-bfb40a3dd759" targetId="16d2c91d-db14-af3d-756a-ce0edc6047b1" linkType="entry">
@@ -2981,13 +2977,13 @@ This free attack may be taken during the current turn or the next turn, dependin
         <link id="4bfe8b48-edeb-fcb9-dde7-bbf46a155c0b" targetId="d6a48bfe-4988-23c5-02d8-09b52baf661e" linkType="entry">
           <modifiers/>
         </link>
-        <link id="7e923fe4-260a-0e97-dfb0-52b603f2361f" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="4586d3e0-9bc4-3fb2-88f7-bdd140598ba9" targetId="c0a9712b-ab81-68b5-388e-1ba536889201" linkType="rule">
           <modifiers/>
         </link>
         <link id="8a06cfbb-25a6-ebca-4d0d-346a94c80a37" targetId="df198625-1cf3-2226-30fb-fa75f6f7ef1e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3d4d049e-4dd9-8e2d-3ae5-741fba713f1e" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3068,9 +3064,6 @@ This free attack may be taken during the current turn or the next turn, dependin
         <link id="1067eb7d-ace1-1695-bb72-1f59a7f10c7b" targetId="d531ea03-f08e-f9b2-c334-ccc0bc3c8ab0" linkType="entry">
           <modifiers/>
         </link>
-        <link id="38340532-3b52-4888-4961-036b86046362" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="160ac4de-7acb-f82b-2b56-c5616d74e1f0" targetId="c0a9712b-ab81-68b5-388e-1ba536889201" linkType="rule">
           <modifiers/>
         </link>
@@ -3080,9 +3073,12 @@ This free attack may be taken during the current turn or the next turn, dependin
         <link id="1d290c08-3a42-af68-8da6-17f1b4fe99d1" targetId="16d2c91d-db14-af3d-756a-ce0edc6047b1" linkType="entry">
           <modifiers/>
         </link>
+        <link id="91cfd889-5b81-6288-1f44-07656839f1ed" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="e947760c-2170-a09b-567b-139c6b37cad7" name="VF-1S" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e947760c-2170-a09b-567b-139c6b37cad7" name="VF-1S" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3149,9 +3145,6 @@ This free attack may be taken during the current turn or the next turn, dependin
         <link id="034d15d2-e331-d99f-ecbd-9008f75b93cb" targetId="3f112914-5c04-6842-9562-6685c92ef1fd" linkType="entry">
           <modifiers/>
         </link>
-        <link id="111acc5d-1ebc-4960-ecfe-20d740d08bc8" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="a4b008fc-ba80-d8dd-bed2-712ae77fab5a" targetId="d6a48bfe-4988-23c5-02d8-09b52baf661e" linkType="entry">
           <modifiers/>
         </link>
@@ -3162,6 +3155,9 @@ This free attack may be taken during the current turn or the next turn, dependin
           <modifiers/>
         </link>
         <link id="df8ad00a-15ba-e1d4-8c6f-58f25d9c178d" targetId="df198625-1cf3-2226-30fb-fa75f6f7ef1e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cf5ce280-1d87-a7a1-c701-fe6bc4cd22df" targetId="77525c93-35df-3383-dfec-ee723586b3db" linkType="entry">
           <modifiers/>
         </link>
       </links>
