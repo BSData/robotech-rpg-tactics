@@ -66,22 +66,6 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="cccb50b5-d29c-0e65-0bdd-3981008baba0" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="f061ae7b-f737-6a3f-53d8-fa214ab4b6fd" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="9ab42924-7f75-d908-d650-fc87be4b02bb" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="58724bb2-9101-740c-72fd-197905fe41ec" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
             <entryGroup id="49a45335-cecf-d98f-d588-390bcda7f657" name="Defender Weapons" defaultEntryId="e8573b88-c641-5699-912c-1b8a32ef9331" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
@@ -104,19 +88,35 @@
           <modifiers/>
           <rules/>
           <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="cccb50b5-d29c-0e65-0bdd-3981008baba0" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f061ae7b-f737-6a3f-53d8-fa214ab4b6fd" targetId="783fd24c-1a40-c3d8-5d2d-94a68c523539" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9ab42924-7f75-d908-d650-fc87be4b02bb" targetId="e79b681c-ede7-d508-807f-a96ffe65c23e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="58724bb2-9101-740c-72fd-197905fe41ec" targetId="f1273540-296b-4ae8-f21f-2064894fd42c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="9996669e-3894-e451-f3fc-deb468af8631" name="Special Cards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
           <links>
             <link id="88228dc9-ba04-8c7e-7aeb-a087ea43d92c" targetId="22c2e0b3-504f-c906-fe67-fe8edf79ae91" linkType="entry">
               <modifiers/>
             </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="9996669e-3894-e451-f3fc-deb468af8631" name="Special Cards" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
