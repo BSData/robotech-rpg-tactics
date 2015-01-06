@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="5" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ddab252c-6993-aef7-4065-9bce0c9783d1" revision="9" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="Zentraedi Armada" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="c14ffe52-616e-9a35-07a6-83d17072b41e" name="Regult Artillery Squadron" points="90.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="73bc17fa-aea5-8a47-2cf2-0615464e5252" name="Core Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="faf302a5-e8d2-822c-656e-66969b0a0ee5" name="Gluuhaug-Regults" defaultEntryId="075bb08e-bf2b-b711-189f-ef4d18e35ec8" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="075bb08e-bf2b-b711-189f-ef4d18e35ec8" targetId="098d978e-b3a9-ace0-a7ae-4cf929ca36e0" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="5c6a57da-8316-ed8b-7032-543f694e183a" name="Serauhaug-Regults" defaultEntryId="92b5dfb8-bd3e-cd80-7b2f-90e111a2eb56" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="92b5dfb8-bd3e-cd80-7b2f-90e111a2eb56" targetId="0c5ebbfb-0260-0cf2-a970-8afe4cdd106a" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups>
+        <entryGroup id="faf302a5-e8d2-822c-656e-66969b0a0ee5" name="Gluuhaug-Regults" defaultEntryId="075bb08e-bf2b-b711-189f-ef4d18e35ec8" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="075bb08e-bf2b-b711-189f-ef4d18e35ec8" targetId="098d978e-b3a9-ace0-a7ae-4cf929ca36e0" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="5c6a57da-8316-ed8b-7032-543f694e183a" name="Serauhaug-Regults" defaultEntryId="92b5dfb8-bd3e-cd80-7b2f-90e111a2eb56" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="92b5dfb8-bd3e-cd80-7b2f-90e111a2eb56" targetId="0c5ebbfb-0260-0cf2-a970-8afe4cdd106a" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
         <entryGroup id="085ab5f4-0faf-8145-8d6c-c04655560237" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -76,55 +66,36 @@
       <links/>
     </entry>
     <entry id="a5f73460-67a4-f7b8-58a5-3ba508552dd9" name="Regult Attack Squadron" points="80.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="667ba617-03b1-2fb5-a53e-de989ac55230" name="Core Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f7e2f9a2-dcd9-b87d-29aa-39761ecbe13b" name="Leader" defaultEntryId="a78fc6f4-1051-01e0-7067-3e2660dce175" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="f7e2f9a2-dcd9-b87d-29aa-39761ecbe13b" name="Leader" defaultEntryId="a78fc6f4-1051-01e0-7067-3e2660dce175" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="a78fc6f4-1051-01e0-7067-3e2660dce175" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="69ca8c15-fd84-4849-2b3c-fa69c11f0b42" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="b947b524-c18e-7585-3b0c-d207d06eb9f4" name="Members" defaultEntryId="9d6055d9-1dd3-fc5c-06ab-a9fa7fdeb5f9" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="9d6055d9-1dd3-fc5c-06ab-a9fa7fdeb5f9" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links>
-            <link id="e89b30a8-03ab-b354-71af-ebe2480d46f8" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+            <link id="a78fc6f4-1051-01e0-7067-3e2660dce175" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="69ca8c15-fd84-4849-2b3c-fa69c11f0b42" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups>
+        </entryGroup>
+        <entryGroup id="b947b524-c18e-7585-3b0c-d207d06eb9f4" name="Members" defaultEntryId="9d6055d9-1dd3-fc5c-06ab-a9fa7fdeb5f9" minSelections="9" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9d6055d9-1dd3-fc5c-06ab-a9fa7fdeb5f9" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
         <entryGroup id="e01a903a-6232-e92e-0671-49bcabad8630" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -154,40 +125,30 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="e89b30a8-03ab-b354-71af-ebe2480d46f8" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="b51eb055-0d59-226c-5c18-29421328def7" name="Regult Attrition Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="c42a0a77-8e68-259b-bedb-66a0cf18c12f" name="Core Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b267796b-0d44-fc5f-b8ea-3ba0257c83fa" name="Members" defaultEntryId="db06cf76-e1f5-21a0-d448-0b16170cfa02" minSelections="12" maxSelections="12" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="b267796b-0d44-fc5f-b8ea-3ba0257c83fa" name="Members" defaultEntryId="db06cf76-e1f5-21a0-d448-0b16170cfa02" minSelections="12" maxSelections="12" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="db06cf76-e1f5-21a0-d448-0b16170cfa02" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links>
-            <link id="e268d7a1-c5ae-df08-5cb5-4e80acc930d6" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+            <link id="db06cf76-e1f5-21a0-d448-0b16170cfa02" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
+              <modifiers/>
             </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups>
+        </entryGroup>
         <entryGroup id="83e0b95a-ce47-86bd-1562-54455ede3c42" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -227,68 +188,58 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="e268d7a1-c5ae-df08-5cb5-4e80acc930d6" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="b7b5446f-1fec-fd25-400c-98ba710b942d" name="Regult Recon Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="16f96818-bf8b-3f29-039e-6c8805ded9fd" name="Core Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="91351490-cc7d-539c-f117-62a73350d00a" name="Leader" defaultEntryId="ee502926-6712-ec0d-7a3b-f930b5d5bcba" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups>
-            <entryGroup id="91351490-cc7d-539c-f117-62a73350d00a" name="Leader" defaultEntryId="ee502926-6712-ec0d-7a3b-f930b5d5bcba" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="ee502926-6712-ec0d-7a3b-f930b5d5bcba" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="14876e00-2f93-d0a3-2b00-54bdf47e9432" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="6840471f-67c4-78f9-0b26-058e08999797" name="Members" defaultEntryId="10073676-fb1d-0ec9-f84b-c566ff7b9752" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="10073676-fb1d-0ec9-f84b-c566ff7b9752" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="7dd3f2d9-019a-22c0-fa13-550b8e2b8e8a" name="Quel-Regult" defaultEntryId="0275e9d9-0237-42d7-3775-dc0cc84a8659" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="0275e9d9-0237-42d7-3775-dc0cc84a8659" targetId="486bd410-6aa5-3fd9-37c1-ea65ede9963b" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links>
-            <link id="a1695516-b4d4-cdc8-20ca-03e218c58e47" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+            <link id="ee502926-6712-ec0d-7a3b-f930b5d5bcba" targetId="928f7be7-6b6b-6d88-cdb8-7329388609ce" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="14876e00-2f93-d0a3-2b00-54bdf47e9432" targetId="53dce204-e777-1f63-8091-91fb73de972c" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="increment" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
           </links>
-        </entry>
-      </entries>
-      <entryGroups>
+        </entryGroup>
+        <entryGroup id="6840471f-67c4-78f9-0b26-058e08999797" name="Members" defaultEntryId="10073676-fb1d-0ec9-f84b-c566ff7b9752" minSelections="6" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="10073676-fb1d-0ec9-f84b-c566ff7b9752" targetId="00a19235-e3dc-9f91-d674-99967bd196ce" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7dd3f2d9-019a-22c0-fa13-550b8e2b8e8a" name="Quel-Regult" defaultEntryId="0275e9d9-0237-42d7-3775-dc0cc84a8659" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="0275e9d9-0237-42d7-3775-dc0cc84a8659" targetId="486bd410-6aa5-3fd9-37c1-ea65ede9963b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
         <entryGroup id="4ee02ed0-5574-a330-5840-f6a62887d11b" name="Support Cards" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -319,6 +270,14 @@
       <rules/>
       <profiles/>
       <links>
+        <link id="a1695516-b4d4-cdc8-20ca-03e218c58e47" targetId="f1f81416-ecb8-bf1e-431c-bccc77d711d6" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
   </entries>
