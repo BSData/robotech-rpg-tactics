@@ -2087,7 +2087,7 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
         </link>
       </links>
     </entry>
-    <entry id="4003611d-707f-4adf-5e8d-7a0e0c7d76fb" name="Magnus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4003611d-707f-4adf-5e8d-7a0e0c7d76fb" name="Magnus" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
