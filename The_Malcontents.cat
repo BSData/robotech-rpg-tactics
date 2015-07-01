@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bac1ee65-24b3-3c1d-f617-126672be0815" revision="9" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="The Malcontents" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bac1ee65-24b3-3c1d-f617-126672be0815" revision="10" gameSystemId="84d12e6f-091a-686e-2850-cd6013115292" gameSystemRevision="1" battleScribeVersion="1.15" name="The Malcontents" books="Robotech RPG Tactics, 2014" authorName="Eric Falsken" authorContact="https://github.com/efalsken" authorUrl="https://github.com/BSData/robotech-rpg-tactics" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="86d5029e-a612-a62e-f19f-7d82929a8e14" name="Air Defense Squadron" points="70.0" categoryId="adb26922-1984-1e76-ced6-7d1236774e6d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -820,6 +820,78 @@
         </link>
       </links>
     </entry>
+    <entry id="32d7-ed39-59a8-0b72" name=" Zentraedi Armada Characters" points="0.0" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a184-e0fc-ba23-9175" targetId="881bf33b-7207-b948-a2f4-c554c68c35df" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2ca8-b766-7b57-8c98" targetId="6fec0178-d817-8eea-6225-37b757f0cefc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4fa4-480c-1392-93a8" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="42eb-1928-e7c8-f5a5" targetId="e1536d5f-de86-cc06-339f-883ed57618d6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="30cd-1226-77eb-2071" targetId="fbc56f9a-2ab5-dc08-1d3d-883c57ffb56d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b7b0-c9a6-5a73-7d90" targetId="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ac70-b732-524c-2eb7" targetId="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1408-2f91-a062-5396" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="929a-64d5-5a18-5b37" targetId="05ac8852-9872-49e4-d929-465bcc711c59" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3b6b-a405-9434-a4d7" name="UEDF Characters" points="0.0" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f195-b865-0fe7-7337" targetId="9c769232-69a6-cce5-7b84-d5bbae4d06aa" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5ef2-56dc-1cab-c540" targetId="9c26eaf2-bbfd-2aef-bf01-d17ddbca3715" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4248-33b6-468c-b733" targetId="4c25e934-ba86-9a53-d861-ffa96ef86adb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dc14-af8f-c472-166a" targetId="066a4abe-cf71-3bfb-f222-ed739151d63e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a8ba-7d9b-14e4-34be" targetId="4003611d-707f-4adf-5e8d-7a0e0c7d76fb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2e01-8d4b-228e-b19c" targetId="9901a17b-2c2d-8abc-e7dc-145730576b15" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7276-1af2-c0fa-1d7d" targetId="58650734-4951-806e-3abf-7ae9733e631c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a6ec-891b-d565-59ae" targetId="cf5df8fb-ee5e-f1ff-8137-af242a4aa041" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e6b6-d800-c0b6-1756" targetId="ddc64b71-dd27-56e9-7d01-b226b093c09f" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules>
     <rule id="9fb95c6f-0bfd-08e8-c177-466f0664bc70" name="Desperate Times" hidden="false">
@@ -832,58 +904,7 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
     </rule>
   </rules>
   <links>
-    <link id="b7c2f8ef-b829-a1ae-0159-b320f613b6d1" targetId="881bf33b-7207-b948-a2f4-c554c68c35df" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="eb3870dc-b9bc-9201-a340-6fbf763e42a4" targetId="6fec0178-d817-8eea-6225-37b757f0cefc" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="19efebac-c14f-3479-60cb-8e0b60b69e1d" targetId="9bee408c-2f03-d574-66ce-a3dcc875afb8" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="38cd476d-cbfb-0c46-3899-affaedd242ac" targetId="e1536d5f-de86-cc06-339f-883ed57618d6" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="0ee5703b-6472-3549-2342-2adfeea3249e" targetId="fbc56f9a-2ab5-dc08-1d3d-883c57ffb56d" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="371c907f-f6bc-7eb6-645c-0b78c9704b57" targetId="d8d7a7f8-2ab9-25b9-84e1-67f708885e39" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="7b512c4b-3b30-f9d9-682a-95544a7dab37" targetId="26dae009-989b-82be-b7cc-8d9cc79737ef" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="856ae77e-c03e-d4cd-0722-3bd7d0f65150" targetId="05ac8852-9872-49e4-d929-465bcc711c59" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="57d27f4d-c7c4-1bf7-051a-2c8d3f918d80" targetId="61ed2167-fc52-c4d8-fc7f-0a58ea450c68" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="487f7659-4564-ee80-9df4-93ae773e04cc" targetId="9c769232-69a6-cce5-7b84-d5bbae4d06aa" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="6d06850b-ed26-9de2-0b0f-d3e52aee1e9b" targetId="9c26eaf2-bbfd-2aef-bf01-d17ddbca3715" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="7719e6fe-fb49-2cba-6b88-14fe674e2040" targetId="4c25e934-ba86-9a53-d861-ffa96ef86adb" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="87bdfb53-c136-cda1-d015-d6e63d6383f9" targetId="066a4abe-cf71-3bfb-f222-ed739151d63e" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="65ec1145-2bfa-a395-2490-1255249ba270" targetId="4003611d-707f-4adf-5e8d-7a0e0c7d76fb" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="c34eabaf-5d00-ad7d-3803-2035f28656d0" targetId="9901a17b-2c2d-8abc-e7dc-145730576b15" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="58dedf94-25ff-ea0d-2731-8a9e683811ad" targetId="58650734-4951-806e-3abf-7ae9733e631c" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="c08ebacf-9d1c-70f5-ae87-54642a68b7c1" targetId="cf5df8fb-ee5e-f1ff-8137-af242a4aa041" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
-      <modifiers/>
-    </link>
-    <link id="30cfdfc5-3e43-7e6b-288d-843c3943e97e" targetId="ddc64b71-dd27-56e9-7d01-b226b093c09f" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
+    <link id="26a7-fe9a-f132-5a2d" targetId="3bba-5474-854c-a247" linkType="entry" categoryId="a9cf99b5-c2ab-88c9-3579-5e7298b55724">
       <modifiers/>
     </link>
   </links>
@@ -3984,6 +4005,42 @@ All other aspects of the Life is Cheap rule apply as normal to mecha with that a
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="3bba-5474-854c-a247" name="Grell (Malcontent)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e0f7-6fbe-4124-fa71" name="Devastating Firepower" hidden="false">
+          <description>All of Grell&apos;s weapon systems gain the Overwhelming and Rapid Fire abilities.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5577-f0d9-c587-96e7" name="Available Mecha (Grell)" hidden="false">
+          <description>Regult, Glaug, Glaug-Eldare, Nousjadeul-Ger, Nousgarma-Ger, Serau-Ger, Gluu-Ger</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2a31-b53a-8364-96eb" profileTypeId="6080e3d0-8384-2d92-c98b-b8fcb39fa768" name="Grell (Malcontent)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="547be9fa-0c35-45d8-89c4-fdf36a27c1c6" name="MDC"/>
+            <characteristic characteristicId="fbfc4ce8-703b-64c0-c20e-bdd410841393" name="SPD"/>
+            <characteristic characteristicId="f9561215-b484-ebe9-7961-cc15d6e520fa" name="PIL" value="+1"/>
+            <characteristic characteristicId="a743bd89-a9d2-65c3-62a9-cfaaf547dd68" name="GN" value="+1"/>
+            <characteristic characteristicId="5b27a647-b0e3-3c89-b868-54a1fd1c80d7" name="DF"/>
+            <characteristic characteristicId="cfe5dd88-98dc-7ea2-4289-b90fd40a9e1b" name="Rules" value="Devastating Firepower"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d3cc-d9d0-d225-e2ed" targetId="b09f7a92-6089-2f95-8b8e-1e60c5f5387b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="962f-0ebd-9c80-c8e3" targetId="4838b47d-5aed-5708-82ec-6bfdb1322fff" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
